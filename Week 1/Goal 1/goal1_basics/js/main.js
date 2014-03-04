@@ -144,18 +144,22 @@ console.log('------ numbers ----------');
     console.log("counter--: ", num--);
     console.log("counter: ", num);
 
-
     //add a number to a string is always a string
-
+    var myStr = "6" + 2;
+    console.log("Number + Strings: ", myStr);
 
     //other math operations will result in a number
-
+    var myStr = "6" / 2 ;
+    console.log("Number / Strings: ", myStr);
 
     //order of operations: ( ), *, /, +, -
-
+    var num = 4 + (6 * 5 - 10) / 5;
+    console.log("order of oerations", num);
 
     //modulo example
-
+    var num1 = 10;
+    var num2 = 3;
+    console.log("Remainder: ", num1%num2);
 
 // arrays: (definition, indexing, getter/setter)
 console.log('------ arrays ----------');
