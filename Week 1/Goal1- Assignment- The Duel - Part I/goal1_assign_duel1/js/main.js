@@ -19,12 +19,12 @@ Part 1 of 3
 	var playerOneHealth = 100;
 	var playerTwoHealth = 100;
 
-	var round = 1;
+	var round = 0;
 
 	function fight(){
 		console.log("in the fight function");
 
-		alert(playerOneName + ":" + playerOneHealth + "*START*" + playerTwoName + ":" + playerTwoHealth);
+		alert(playerOneName + ":" + playerOneHealth + " *START* " + playerTwoName + ":" + playerTwoHealth);
 
 		for (var i = 0; i < 10; i++) {
 			//Math.floor(Math.random() * (max - min) + min);
@@ -45,7 +45,7 @@ Part 1 of 3
 
 			if (results === "no winner") {
 				round++;
-				alert(playerOneName + ":" + playerOneHealth + "ROUND" + round + "OVER" + playerTwoName + ":" + playerTwoHealth);
+				alert(playerOneName + ":" + playerOneHealth + " *ROUND " + round + " OVER* " + playerTwoName + ":" + playerTwoHealth);
 
 			}else{
 				alert(results);
