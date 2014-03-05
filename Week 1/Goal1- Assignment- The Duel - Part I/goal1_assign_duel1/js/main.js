@@ -27,7 +27,7 @@ Part 1 of 3
 		alert(playerOneName + ":" + playerOneHealth + "*START*" + playerTwoName + ":" + playerTwoHealth);
 
 		for (var i = 0; i < 10; i++) {
-			console.log(i);
+			Math.floor(Math.random() * (max - min) + min);
 		};
 
 		winnerCheck();
