@@ -47,6 +47,9 @@ Part 1 of 3
 				round++;
 				alert(playerOneName + ":" + playerOneHealth + "ROUND" + round + "OVER" + playerTwoName + ":" + playerTwoHealth);
 
+			}else{
+				alert(results);
+				break;
 			};
 		};
 
