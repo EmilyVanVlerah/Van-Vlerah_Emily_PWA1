@@ -495,7 +495,12 @@ console.log("Bob's Mood: ", Mood);
     - ? = perform the next statement if true
     - : = false (perform the new statement after the :)
  */
+    var weather = "Cloudy";
+    var mood = (weather === "Sunny" ? "happy" : "sad");
+    console.log("Mood: ", mood);
 
+    var smile = true;
+    console.log("I am " + (smile === true ? "happy": "sad") + "!!");
 
 
 /*******************************************
@@ -509,8 +514,10 @@ console.log("Bob's Mood: ", Mood);
         - else student1 = 'sad'
     4.  console.log the results
  ********************************************/
-
-
+    var temp = 60;
+    var weather = "Sunny";
+    var student1 = (weather === "Sunny" ? "happy" : ((temp >= 80) ? "content" : "sad"));
+    console.log("Nested ternary weather: ", student1);
 
 // Functions: (definition, whitespace, invocation, arguments, returns)
 console.log('------Functions ----------');
