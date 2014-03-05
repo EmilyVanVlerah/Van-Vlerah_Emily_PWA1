@@ -42,6 +42,12 @@ Part 1 of 3
 
 			var results = winnerCheck();
 			console.log(results);
+
+			if (results === "no winner") {
+				round++;
+				alert(playerOneName + ":" + playerOneHealth + "ROUND" + round + "OVER" + playerTwoName + ":" + playerTwoHealth);
+
+			};
 		};
 
 		
