@@ -38,11 +38,13 @@ Part 1 of 3
 			playerOneHealth-=f1;
 			playerTwoHealth-=f2;
 
-			console.log(playerOneHealth);
-			console.log(playerTwoHealth);
+			console.log(playerOneName + ":" + playerOneHealth + "*START*" + playerTwoName + ":" + playerTwoHealth);
+
+			winnerCheck();
+
 		};
 
-		winnerCheck();
+		
 	};
 
 	function winnerCheck(){
