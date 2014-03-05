@@ -28,8 +28,11 @@ Part 1 of 3
 
 	function winnerCheck(){
 
+
 	};
 
+
+	console.log("program starts");
 	fight();
 
 })();
