@@ -561,9 +561,16 @@ console.log('------Functions ----------');
      - type the below as an example
         functionName();
  *****************************
+*/
+    var myctr = 1
+    var myCounter = funciton(){
+        var testVar = 0;
+        myctr++;
+        console.log("counter = ", myctr);
+    };
 
-
-
+    myCounter();
+    myCounter();
 
  /*
     function literal: passing data into a function
@@ -599,9 +606,15 @@ console.log('------Functions ----------');
     - in the function - var1 and var2 are referred to as parameters of the function
     - items inside our function we call on these variables.. such as:
  */
+    var value1 = 1;
+    var value2 = 2;
 
+    var myFn = function(var1, var2) {
 
+        console.log("function number: ", var1 + var2 );
+    };
 
+    myFn(value1, value2);
 
 /*******************************************
  STUDENT ACTIVITY 6:
