@@ -25,6 +25,8 @@ Part 1 of 3
 
 	function winnerCheck(){};
 
+	fight();
+
 })();
 
 
