@@ -22,7 +22,7 @@ Part 1 of 3
 	var round = 1;
 
 	function fight(){
-
+		console.log("in the fight function");
 		winnerCheck();
 	};
 
