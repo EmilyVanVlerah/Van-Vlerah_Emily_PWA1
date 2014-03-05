@@ -40,14 +40,15 @@ Part 1 of 3
 
 			console.log(playerOneName + ":" + playerOneHealth + "*START*" + playerTwoName + ":" + playerTwoHealth);
 
-			winnerCheck();
-
+			var results = winnerCheck();
+			console.log(results);
 		};
 
 		
 	};
 
 	function winnerCheck(){
+
 		var result = "no winner";
 
 		if (playerOneHealth<1 && playerTwoHealth<1) {
@@ -57,7 +58,7 @@ Part 1 of 3
 		}else if (playerTwoHealth<1) {
 			result = playerOneName+ "WINS!!!"
 		};
-		
+		return result;
 	};
 
 
