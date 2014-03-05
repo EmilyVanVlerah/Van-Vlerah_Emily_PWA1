@@ -423,9 +423,15 @@ console.log('------ conditionals ----------');
  GOAL
     1. learn if - else
  ********************************************/
+ var weather = "Cloudy";
 
+ if (weather === "Sunny"){
+    bobsMood = "happy";
+ }else{
+    bobsMood = "sad";
+ };
 
-
+console.log("If-Else weather: ", bobsMood);
 
 /*******************************************
  STUDENT ACTIVITY 4:
@@ -443,7 +449,31 @@ console.log('------ conditionals ----------');
     3.  console.log the results after each conditional
  ********************************************/
 
+var weather = "Cloudy";
+var waves = 10;
 
+if (weather === "Sunny"){
+    if (waves === 10) {
+        Mood = "pumped";
+    }else if ((waves <= 9) && (waves >= 5)){
+        Mood = "mellow";
+    }else{ 
+        Mood = "bummed";
+    }
+
+}else if (weather === "overcast"){
+    if ((waves < 10) && (waves >= 7)){
+        Mood = "Jacked Up";
+    }else if ((waves <= 6) && (waves >= 3)){
+        Mood = "totally Bummed";
+    }else{
+        Mood = "not happy";
+    }        
+}else{
+    Mood = "sad";
+};
+
+console.log("Bob's Mood: ", Mood);
 
 
 /*
