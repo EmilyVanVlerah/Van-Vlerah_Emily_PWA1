@@ -24,8 +24,10 @@ Part 1 of 3
 	function fight(){
 		console.log("in the fight function");
 
+		alert(playerOneName + ":" + playerOneHealth + "*START*" + playerTwoName + ":" + playerTwoHealth);
+
 		for (var i = 0; i < 10; i++) {
-			
+			console.log(i);
 		};
 
 		winnerCheck();
