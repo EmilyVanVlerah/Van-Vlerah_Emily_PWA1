@@ -671,8 +671,19 @@ console.log('------Functions ----------');
             output the same info
     4.  console.log the results
  ********************************************/
+    
+    var myctr = 1 //save previous answer
+    var myCounter = funciton(newct){
+        var my] = 50;// starts with same number no matter how much it's envoked.
+        myctr += newct;
+        return myctr;
+    };
 
+    var cnt = myCounter(5);
+    console.log("counter = ", cnt);
 
+    var cnt = myCounter(2);
+    console.log("counter = ", cnt);
 
 
 /*******************************************
@@ -684,4 +695,37 @@ console.log('------Functions ----------');
  4. return Mood
  5. console.log the Results
  ********************************************/
+
+var value1 = "Sunny";
+var value2 = 10;
+
+var moodFN = function(weather, waves){
+    if (weather === "Sunny"){
+        if (waves === 10) {
+            Mood = "pumped";
+        }else if ((waves <= 9) && (waves >= 5)){
+            Mood = "mellow";
+        }else{ 
+            Mood = "bummed";
+        }
+
+    }else if (weather === "overcast"){
+        if ((waves < 10) && (waves >= 7)){
+            Mood = "Jacked Up";
+        }else if ((waves <= 6) && (waves >= 3)){
+            Mood = "totally Bummed";
+        }else{
+            Mood = "not happy";
+        }        
+    }else{
+        Mood = "sad";
+    };
+
+    return Mood;
+};
+
+var moodType = moodFN(value1, value2);
+console.log("Bob's Mood: ", moodType);
+
+
 
