@@ -33,10 +33,13 @@ Part 1 of 3
 			var minDamage2 = player2Damage * .5;
 
 			var f1 = Math.floor(Math.random()*(player1Damage-minDamage1) + minDamage1);
-			var f1 = Math.floor(Math.random()*(player2Damage-minDamage2) + minDamage2);
+			var f2 = Math.floor(Math.random()*(player2Damage-minDamage2) + minDamage2);
 
-			console.log(f1);
-			console.log(f2);
+			playerOneHealth-=f1;
+			playerTwoHealth-=f2;
+
+			console.log(playerOneHealth);
+			console.log(playerTwoHealth);
 		};
 
 		winnerCheck();
