@@ -28,6 +28,12 @@ Part 1 of 3
 
 		for (var i = 0; i < 10; i++) {
 			Math.floor(Math.random() * (max - min) + min);
+
+			var minDamage1 = player1Damage * .5;
+			var minDamage2 = player2Damage * .5;
+
+			var f1 = Math.floor(Math.random()*(player1Damage-minDamage1) + )
+			var f1 = Math.floor(Math.random()*(player2Damage-minDamage2) + )
 		};
 
 		winnerCheck();
