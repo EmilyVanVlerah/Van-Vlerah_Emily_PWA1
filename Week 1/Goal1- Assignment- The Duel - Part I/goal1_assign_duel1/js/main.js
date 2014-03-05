@@ -21,9 +21,14 @@ Part 1 of 3
 
 	var round = 1;
 
-	function fight(){};
+	function fight(){
 
-	function winnerCheck(){};
+		winnerCheck();
+	};
+
+	function winnerCheck(){
+
+	};
 
 	fight();
 
