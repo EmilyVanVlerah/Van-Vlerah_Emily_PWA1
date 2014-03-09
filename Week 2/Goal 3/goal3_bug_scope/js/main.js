@@ -147,7 +147,7 @@ console.log('------ Debugging ----------');
 	var moodType = mood(value1, value2);
 	console.log('mood: ', moodType);
 */
-
+/*
     //Example5:
 
     var myNums = [1, 2, 3, 4, 5];
@@ -166,7 +166,7 @@ console.log('------ Debugging ----------');
         console.log('What is at index ' + i + ' = ', myNums[i] );
     };
 
-
+*/
 
 /*
 	===============================================
@@ -192,7 +192,24 @@ console.log('------ Debugging ----------');
 */
     console.log('------ Try Catch ----------');
 
+    var return10 = function(){
+    	return 10;
+    };
 
+    var num = return10();
+
+    try
+    {
+    	if (num ==="") throw "empty";
+    	if ( isNaN(num)) throw "not a number";//num
+    	if (num > 10) throw "too high";//15
+    	if (num < 10) throw "too low";//1
+    }
+
+    catch(err)
+    {
+    	console.log(err);
+    };
 /*
 	===================================================================
 	Scope & Context
