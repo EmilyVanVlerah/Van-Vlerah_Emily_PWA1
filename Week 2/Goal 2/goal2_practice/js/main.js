@@ -158,38 +158,56 @@ var str2 = 'JavaScript loves me!';
 var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 // Use charAt() to console.log the 'v' in str1.
-
+//(Shows the "v" in str1 in the console of the browser)
+	console.log(str1.charAt(4));
 
 // Use indexOf() to console.log the index of 'm' in str2.
-
+//(Shows the what place numerically where the "m" is in str2)
+	console.log(str2.indexOf('m'));
 
 // Use lastIndexOf() to console.log the last 'a' in str1.
-
+//(Shows the last index number is of "a")
+	console.log(str1.lastIndexOf('a'));
 
 // Use length to console.log the length in str1.
-
+//(Shows the length of the string or how many characters are in str1)
+	console.log(str1.length);
 
 // Use split() to console.log an array of the ABC's using the abc variable.
 // EX: ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+//(This tells it to split variable 'abc' and put quotes around every letter)
+	console.log(abc.split(''));
 
 
 //STUDENT ACTIVITY 1:
 // Use substr() to console.log 'JavaScript!' from str1.
 
+	console.log(str1.substr(7, 11));
+
 
 // Use concat() to console.log 'I love JavaScript ! JavaScript loves me!' with str1 and str2.
 
+	console.log(str1.concat(str2));
 
 
 //STUDENT ACTIVITY 2:
 // Use substring() to console.log 'JavaScript' from str2.
 
+	console.log(str2.substring(0, 10));
+
 
 //STUDENT ACTIVITY 3:
 // 1. Use toLowerCase() to console.log the str1 all in lowercase letters.
+
+	console.log(str1.toLowerCase());
+
 // 2. Use toUpperCase() to console.log the str1 all in uppercase letters.
 
+	console.log(str1.toUpperCase());
 
+//Use toString() to console log the type of str1.	
+//(this will output the "data type" of the item "str1")
+	console.log(typeof str1.toString());
 
 /*
 	===============================================
