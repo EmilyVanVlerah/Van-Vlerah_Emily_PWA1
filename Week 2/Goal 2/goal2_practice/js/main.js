@@ -277,7 +277,7 @@ console.log('------ MORE Arrays ----------');
 var arr1 = [1, 2, 3, 4, 5, 6, 7];
 var arr2 = ['a', 'b', 'c', 'd', 'e'];
 var arr3 = ['apple', 'orange', 50393, 7.324];
-
+/*
 // indexOf()
 //Returns the first (least) index of an element within the array equal
 //to the specified value, or -1 if none is found.
@@ -325,7 +325,7 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 		console.log("array", array);
 	});
 
-
+*/
 
 /*******************************************
  STUDENT ACTIVITY 5:
@@ -346,7 +346,20 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
     var firstQtr = ["Jan", "Feb", "Mar"];
     var secondQtr = ["Apr", "May", "Jun"];
     var secondHalfYr = ["Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
-    var combined;
+
+    var combined = firstQtr.concat(secondQtr);
+    console.log("Concat 2 arrays: ", combined);
+
+    var comb = combined.concat(secondHalfYr);
+    console.log("Concat 3 arrays: ", comb);
+
+    console.log("Joined arrays: ", comb.join());
+
+    console.log("Took out - ", comb.pop());
+    console.log("Show Array: ", comb);
+
+    var results = secondHalfYr.slice(2, 4);
+    console.log("slice: ", results);
 
 
 /*
