@@ -1,6 +1,6 @@
 /*
-     Name:
-     Date:
+     Name: Emily Van Vlerah	
+     Date:March 9th, 2014
      Class & Section:  PWA1-####
      Comments: "Goal 2: JavaScript Practice"
  */
