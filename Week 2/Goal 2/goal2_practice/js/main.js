@@ -371,7 +371,7 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 */
 
 console.log('------ MORE Operators - typeof() ----------');
-
+/*
 	console.log(typeof 5);//number
 
 	console.log(typeof "Hi");//string
@@ -395,6 +395,7 @@ console.log('------ MORE Operators - typeof() ----------');
 	}else{
 		console.log("myString is: ", myString);
 	};
+*/	
 
 /*
 	===============================================
@@ -420,6 +421,31 @@ console.log('------ MORE Operators - typeof() ----------');
 
 console.log('------ MORE Conditionals - Switch ----------');
 
+	var fruit = "Chicken";
+
+	switch (fruit){
+		case "Oranges":
+			console.log("Oranges are $0.59 a pound.");
+			break;
+		case "Apples":
+			console.log("Apples are $0.32 a pound.");
+			break;
+		case "Bananas":
+			console.log("Bananas are $0.48 a pound.");
+			break;
+		case "Cherries":
+			console.log("Cherries are $3.00 a pound.");
+			break;
+		case "Mangoes":
+		case "Papayas":
+			console.log("Mangoes and Papayas are $2.79 a pound.");
+			break;
+		default:
+			console.log("Sorry we are out of" + " " + fruit + ".");	
+			break;									
+	};
+
+
 /*******************************************
  STUDENT ACTIVITY 6:
 
@@ -429,7 +455,20 @@ console.log('------ MORE Conditionals - Switch ----------');
 			if age 18 then console.log "adult"
 			if no age then console.log "No answer"
 ********************************************/
+	
+	var age = 13;
 
+	switch (age){
+		case 13:
+			console.log("Child");
+			break;
+		case 18:
+			console.log("Adult");
+			break;
+		default:
+			console.log("No answer");
+			break;										
+	};
 
 
 /*
