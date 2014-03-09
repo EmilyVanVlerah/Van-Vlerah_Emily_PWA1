@@ -152,7 +152,7 @@ console.log('------Recap Functions ----------');
 */
 
 console.log('------ MORE Strings ----------');
-
+/*
 var str1 = 'I love JavaScript! ';
 var str2 = 'JavaScript loves me!';
 var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -208,7 +208,7 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 //Use toString() to console log the type of str1.	
 //(this will output the "data type" of the item "str1")
 	console.log(typeof str1.toString());
-
+*/
 /*
 	===============================================
 	MORE:  Numbers
@@ -216,7 +216,7 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 */
 
 console.log('------ MORE Numbers ----------');
-
+/*
 var num = 4567896;
 var dec = 33.123456;
 
@@ -235,7 +235,7 @@ var dec = 33.123456;
 // Use toString() to console.log the type of num.
 	console.log(typeof num.toString());
 
-
+*/
 /*
 	===============================================
 	MORE:  Booleans
@@ -256,7 +256,7 @@ var dec = 33.123456;
 */
 
 console.log('------ MORE Booleans ----------');
-
+/*
 	var num = 9 * "k";
 	console.log(num);
 
@@ -265,7 +265,7 @@ console.log('------ MORE Booleans ----------');
 	}else{
 		console.log("It's false, the value is: ", num);
 	}
-	
+*/	
 /*
 	===============================================
 	MORE:  Arrays
@@ -281,34 +281,49 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 // indexOf()
 //Returns the first (least) index of an element within the array equal
 //to the specified value, or -1 if none is found.
-
+	console.log(arr2.indexOf("c"));
 
 // join()
 // Joins all elements of an array into a string.
-
+	console.log(arr2.join(","));
 
 // pop()
 // Removes the last element from an array and returns that element
 // shift() removes the first element from an array.
+	var element = arr1.pop();
+	console.log(element);
+	console.log(arr1);
+
+	//console.log(arr1.shift());
 
 
 // push()
 // Adds one or more elements to the end of an array and returns the new
 //   length of the array
 // unshift() - Adds one or more elements to the front of an array.
+	arr2.push("f");
+	console.log(arr2);
 
+	//console.log(.unshift());
 
 // reverse()
 // Reverses the order of the elements of an array
-
+	console.log(arr1.reverse());
 
 // splice()
 // Adds and/or removes elements from an array.
-
+	console.log(arr1);
+	console.log(arr1.splice(4, 2));
+	console.log(arr1);
 
 // forEach()
 // Calls a function for each element in the array.
-
+	console.log(arr1);
+	arr1.forEach(function(element, index, array){
+		console.log("element", element);
+		console.log("index", index);
+		console.log("array", array);
+	});
 
 
 
