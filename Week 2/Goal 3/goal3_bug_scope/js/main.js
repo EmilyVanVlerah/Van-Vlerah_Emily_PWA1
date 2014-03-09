@@ -1,4 +1,6 @@
 /*
+	Name: Emily Van Vlerah
+	Date: March 9th, 2014
 	PWA1 Goal 3
 	JavaScript Debugging & Scope
 */
