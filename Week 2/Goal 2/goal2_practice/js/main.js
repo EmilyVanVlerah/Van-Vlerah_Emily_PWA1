@@ -257,7 +257,14 @@ var dec = 33.123456;
 
 console.log('------ MORE Booleans ----------');
 
+	var num = 9 * "k";
+	console.log(num);
 
+	if(num){
+		console.log("it's ture, the value is: ", num);
+	}else{
+		console.log("It's false, the value is: ", num);
+	}
 	
 /*
 	===============================================
