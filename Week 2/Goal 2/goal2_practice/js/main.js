@@ -420,7 +420,7 @@ console.log('------ MORE Operators - typeof() ----------');
 */
 
 console.log('------ MORE Conditionals - Switch ----------');
-
+/*
 	var fruit = "Chicken";
 
 	switch (fruit){
@@ -445,7 +445,7 @@ console.log('------ MORE Conditionals - Switch ----------');
 			break;									
 	};
 
-
+*/
 /*******************************************
  STUDENT ACTIVITY 6:
 
@@ -455,7 +455,7 @@ console.log('------ MORE Conditionals - Switch ----------');
 			if age 18 then console.log "adult"
 			if no age then console.log "No answer"
 ********************************************/
-	
+/*	
 	var age = 13;
 
 	switch (age){
@@ -470,7 +470,7 @@ console.log('------ MORE Conditionals - Switch ----------');
 			break;										
 	};
 
-
+*/
 /*
 	===============================================
 	MORE:  Functions
@@ -483,6 +483,13 @@ console.log('------ MORE Conditionals - Switch ----------');
 */
 
 console.log('------ MORE Functions ----------');
+
+	var bondsCars = function (){
+		return ["ferrari", "lambo", "vwBug"];
+	};
+
+	var cars = bondsCars();
+	console.log("James Bond cars, ", cars);
 
 
 	/* 
@@ -500,6 +507,12 @@ console.log('------ MORE Functions ----------');
 			self function - combining the 2 statement above
 				var fn = (function(){})();	
 	*/	
+
+	(function(){
+		
+	})();
+
+
 
 
 /*
