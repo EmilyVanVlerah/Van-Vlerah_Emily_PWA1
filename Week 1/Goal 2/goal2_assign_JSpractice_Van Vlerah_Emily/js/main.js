@@ -15,6 +15,18 @@
          - find the average of all the numbers
          - return the average from the function
          - console.log the answer outside of the function
+*/
+    function avgNumbers(){
+        return ;
+    };
+
+    var num = avgNumbers();
+    console.log("The average of the numbers in the function is: ", num);
+
+
+
+
+/*
 
      2.  create a function named 'fullName'
          - accept 2 parameters into the function that are strings (firstname and lastname)
