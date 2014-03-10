@@ -152,7 +152,7 @@ console.log('------Recap Functions ----------');
 */
 
 console.log('------ MORE Strings ----------');
-/*
+
 var str1 = 'I love JavaScript! ';
 var str2 = 'JavaScript loves me!';
 var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -208,7 +208,7 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 //Use toString() to console log the type of str1.	
 //(this will output the "data type" of the item "str1")
 	console.log(typeof str1.toString());
-*/
+
 /*
 	===============================================
 	MORE:  Numbers
@@ -216,7 +216,7 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 */
 
 console.log('------ MORE Numbers ----------');
-/*
+
 var num = 4567896;
 var dec = 33.123456;
 
@@ -256,7 +256,7 @@ var dec = 33.123456;
 */
 
 console.log('------ MORE Booleans ----------');
-/*
+
 	var num = 9 * "k";
 	console.log(num);
 
@@ -265,7 +265,7 @@ console.log('------ MORE Booleans ----------');
 	}else{
 		console.log("It's false, the value is: ", num);
 	}
-*/	
+	
 /*
 	===============================================
 	MORE:  Arrays
@@ -277,7 +277,7 @@ console.log('------ MORE Arrays ----------');
 var arr1 = [1, 2, 3, 4, 5, 6, 7];
 var arr2 = ['a', 'b', 'c', 'd', 'e'];
 var arr3 = ['apple', 'orange', 50393, 7.324];
-/*
+
 // indexOf()
 //Returns the first (least) index of an element within the array equal
 //to the specified value, or -1 if none is found.
@@ -325,7 +325,7 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 		console.log("array", array);
 	});
 
-*/
+
 
 /*******************************************
  STUDENT ACTIVITY 5:
@@ -342,7 +342,7 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
  7.  use array "secondHalfYr", and reduce the array to "Sept" & "Oct"
         and console.log the results
  ********************************************/
-/*
+
     var firstQtr = ["Jan", "Feb", "Mar"];
     var secondQtr = ["Apr", "May", "Jun"];
     var secondHalfYr = ["Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
@@ -361,7 +361,7 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
     var results = secondHalfYr.slice(2, 4);
     console.log("slice: ", results);
 
-*/
+
 /*
 	===============================================
 	MORE:  Operators (typeof())
@@ -371,7 +371,7 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 */
 
 console.log('------ MORE Operators - typeof() ----------');
-/*
+
 	console.log(typeof 5);//number
 
 	console.log(typeof "Hi");//string
@@ -395,7 +395,7 @@ console.log('------ MORE Operators - typeof() ----------');
 	}else{
 		console.log("myString is: ", myString);
 	};
-*/	
+	
 
 /*
 	===============================================
@@ -420,7 +420,7 @@ console.log('------ MORE Operators - typeof() ----------');
 */
 
 console.log('------ MORE Conditionals - Switch ----------');
-/*
+
 	var fruit = "Chicken";
 
 	switch (fruit){
@@ -445,7 +445,7 @@ console.log('------ MORE Conditionals - Switch ----------');
 			break;									
 	};
 
-*/
+
 /*******************************************
  STUDENT ACTIVITY 6:
 
@@ -455,7 +455,7 @@ console.log('------ MORE Conditionals - Switch ----------');
 			if age 18 then console.log "adult"
 			if no age then console.log "No answer"
 ********************************************/
-/*	
+	
 	var age = 13;
 
 	switch (age){
@@ -470,7 +470,7 @@ console.log('------ MORE Conditionals - Switch ----------');
 			break;										
 	};
 
-*/
+
 /*
 	===============================================
 	MORE:  Functions
@@ -483,14 +483,14 @@ console.log('------ MORE Conditionals - Switch ----------');
 */
 
 console.log('------ MORE Functions ----------');
-/*
+
 	var bondsCars = function (){
 		return ["ferrari", "lambo", "vwBug"];
 	};
 
 	var cars = bondsCars();
 	console.log("James Bond cars, ", cars);
-*/
+
 
 	/* 
 		Self Executing Functions
@@ -507,12 +507,12 @@ console.log('------ MORE Functions ----------');
 			self function - combining the 2 statement above
 				var fn = (function(){})();	
 	*/	
-/*
+
 	(function(){
 
 	})();
 
-*/
+
 
 
 /*
@@ -545,14 +545,14 @@ console.log('------ MORE Functions ----------');
 			}			
 */
 console.log('------ While / Loop ----------');
-/*
+
 	var numOfBeers = 10;
 
 	while (numOfBeers > 0){
 		console.log(numOfBeers + " kegs on the wall.");
 		numOfBeers--;		
 	};
-*/	
+
 	
 /*
 	===============================================
@@ -577,7 +577,7 @@ console.log('------ While / Loop ----------');
 */
 
 console.log('------For Loop ----------');
-/*
+
 	for (var beers = 10; beers > 0; beers--){
 		console.log(beers + " bottles of beer on the wall.");
 	};
@@ -593,7 +593,7 @@ console.log('------For Loop ----------');
 		- in the example below, the last index of the array would be 4 
 			- the  .length property returns the count, which would be 5	
 	*/	
-/*
+
 	var myNums = [1,2,3,4,5];
 	console.log("length: ", myNums.length);
 
@@ -617,7 +617,7 @@ console.log('------For Loop ----------');
 		- depending on the size of an array, it can be more efficient to 
 			save the array length in a variable, inside the first statement
 	*/
-/*
+
 	for (var i=0, j=myNums.length; i<j; i++){
 		console.log(myNums[i]);
 	};
@@ -629,7 +629,7 @@ console.log('------For Loop ----------');
 		- by using the "break" statement, any loop will stop running at the 
 			break point, and perform no more iterations
 	*/
-/*
+
 	for (var i=0, j=myNums.length; i<j; i++){
 		if (i===3) {
 			console.log("testing out the break and it broke");
@@ -646,7 +646,6 @@ console.log('------For Loop ----------');
 			statement will stop a loop’s current iteration, and continue 
 			on to the next iteration
 	*/
-/*
 	for (var i=0, j=myNums.length; i<j; i++){
 		if (i===3) {
 			console.log("testing out the break and it broke");
@@ -655,7 +654,7 @@ console.log('------For Loop ----------');
 
 		console.log("length in for loop: ", myNums[i]);
 	};
-*/
+
 
 /*******************************************
  STUDENT ACTIVITY 7:
@@ -668,13 +667,13 @@ console.log('------For Loop ----------');
 		b.  create a for loop using the faster method (4 parameters)
 			- in the loop just console.log the values
 ********************************************/
-/*
+
 	var characters = ["Superman", "Batman", "Wolverine", "Iceman"];
 	
 	for (var i=0, j=characters.length; i<j; i++){
 		console.log(characters[i]);
 	};
-*/
+
 
 
 /*******************************************
