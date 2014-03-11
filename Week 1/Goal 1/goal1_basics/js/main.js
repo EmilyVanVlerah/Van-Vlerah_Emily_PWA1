@@ -6,7 +6,7 @@
  */
 
 // self-executing function
-
+(function () {
 // Alert Hello World
 
 /* 
@@ -727,5 +727,5 @@ var moodFN = function(weather, waves){
 var moodType = moodFN(value1, value2);
 console.log("Bob's Mood: ", moodType);
 
-
+};
 
