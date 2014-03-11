@@ -2,8 +2,6 @@
 //March 11th, 2014
 //Goal3: Assignment: Debug V2
 
-
-
 // Create privatized scope using a self-executing function
 (function(){
     
