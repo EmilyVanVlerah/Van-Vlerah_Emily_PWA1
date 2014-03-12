@@ -54,7 +54,7 @@
             // loop through the user's search query words
             // save a lowercase variable of the search keyword
             for(var ii=0, jj=queryArray.length; ii<jj; ii++){
-                var qitem = queryArray[ii].tolowercase();
+                var qitem = queryArray[ii].toLowerCase();
                 
                 // is the keyword anywhere in the video title?
                 // If a match is found, push full db[i] into results array
@@ -80,9 +80,9 @@
         var html = ''+
             '<p>No Results found.</p>'+
             '<p style="font-size:10px;">Try searching for "JavaScript".  Just an idea.</p>'
-        
+        ;
         resultsDIV.innerHTML = html;
-    }
+    };
     
     // Put matches into page as paragraphs with anchors
     var showMatches = function(results){
