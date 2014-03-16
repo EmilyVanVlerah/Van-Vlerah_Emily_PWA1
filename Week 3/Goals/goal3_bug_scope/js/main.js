@@ -296,7 +296,7 @@ console.log("---------- Scope & Context ----------------");
 */
 
     console.log("---------- Closure ----------------");
-
+/*
     var fname = "James";
 
     var nameFN = function (var1){
@@ -316,6 +316,7 @@ console.log("---------- Scope & Context ----------------");
    //console.log("first name: =", firstName);
    //console.log("last name: =", lastName);
     fullName();
+*/
 
     /*
     Definition:  Closure:
@@ -344,5 +345,19 @@ console.log("---------- Scope & Context ----------------");
                   called a closure.  Simply accessing variables outside of its
                   immediate lexical scope creates a closure.
     */
+
+        a = (function(){
+            var privateFunction = function(){
+                alert("hello");
+            }
+
+            return{
+                pubilcFunction: function(){
+                    privateFunction();
+                }
+            }
+        })();
+
+    a.pubilcFunction();
 
 })(); // end wrapper
