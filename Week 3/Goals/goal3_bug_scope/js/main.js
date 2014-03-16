@@ -297,7 +297,25 @@ console.log("---------- Scope & Context ----------------");
 
     console.log("---------- Closure ----------------");
 
+    var fname = "James";
 
+    var nameFN = function (var1){
+        var firstName = var1;
+        var lastName = "Bond";
+        var name = firstName + " " + lastName;
+
+        var closureFN = function(){
+            console.log("first & last name: =", name);
+        }
+        return closureFN;
+    };
+
+    var fullName = nameFN(fname);
+    //console.log("returned full name: =", fullName);
+    //console.log("var fname: =", fname);
+   //console.log("first name: =", firstName);
+   //console.log("last name: =", lastName);
+    fullName();
 
     /*
     Definition:  Closure:

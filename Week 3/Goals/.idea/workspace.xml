@@ -26,7 +26,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal3_bug_scope/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="283" column="8" selection-start="7783" selection-end="7783" vertical-scroll-proportion="0.6174334" vertical-offset="3990" max-vertical-offset="5025">
+            <state line="310" column="6" selection-start="8472" selection-end="8472" vertical-scroll-proportion="0.47215497" vertical-offset="4455" max-vertical-offset="5295">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -49,7 +49,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="744" />
+    <option name="x" value="773" />
     <option name="y" value="22" />
     <option name="width" value="1009" />
     <option name="height" value="523" />
@@ -154,7 +154,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="744" y="22" width="1009" height="523" extended-state="0" />
+    <frame x="773" y="22" width="1009" height="523" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -195,7 +195,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/goal3_bug_scope/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="8" selection-start="7783" selection-end="7783" vertical-scroll-proportion="0.6174334" vertical-offset="3990" max-vertical-offset="5025">
+        <state line="310" column="6" selection-start="8472" selection-end="8472" vertical-scroll-proportion="0.47215497" vertical-offset="4455" max-vertical-offset="5295">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
