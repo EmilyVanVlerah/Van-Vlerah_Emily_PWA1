@@ -1,6 +1,6 @@
 /*
 	Name: Emily Van Vlerah
-	Date: March 9th, 2014
+	Date: March 16th, 2014
 	PWA1 Goal 3
 	JavaScript Debugging & Scope
 */
@@ -275,10 +275,18 @@ console.log('------ Debugging ----------');
 */
 console.log("---------- Scope & Context ----------------");
 
+    var myctr = 0;
 
+    var myCounter1 = function(newct){
 
+        var myctr = newct + 10;
 
+        console.log('function:', myctr);
 
+    };
+
+    myCounter1(5);
+    console.log('after function myctr:',myctr);
 /*
 	===================================================================
 	Closure
