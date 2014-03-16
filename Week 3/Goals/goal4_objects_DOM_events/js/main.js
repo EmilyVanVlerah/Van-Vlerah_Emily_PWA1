@@ -69,7 +69,7 @@ console.log('------Objects ----------');
 // Object within an object
 
 console.log('------Object within an object, Arrays, Function ----------');
-
+/*
     var thatGuy = {
         name: "James Bond",//property
         course: "PWA1",//property
@@ -102,7 +102,7 @@ console.log('------Object within an object, Arrays, Function ----------');
 console.log('------Objects - properties & methods ----------');
 
 //Method 1 "Basic"
-
+/*
     var fsStudent = {};
     fsStudent.age = 22;//dot notation
     fsStudent.career = "Web Dev";//index notation
@@ -125,7 +125,7 @@ console.log('------Objects - properties & methods ----------');
     console.log(fsStudent["age"]);
 
 
-
+*/
 /* --------------
 Method 2 "OBJECT Literal"
 
@@ -134,7 +134,7 @@ Method 2 "OBJECT Literal"
 
 	- below is the same object as in Method 1
 */
-
+/*
     var fsStudent = {
         age : 22,
         career : "Web Dev",
@@ -149,7 +149,7 @@ Method 2 "OBJECT Literal"
     console.log(fsStudent.age);
     console.log(fsStudent["age"]);
 
-
+*/
 //---------------------------------------------
 
 
@@ -178,7 +178,7 @@ STUDENT ACTIVITY 1:
 console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
 // this is integrating multiple data types - object with an array of objects
-
+/*
     var schoolInfo = {
         schoolName: "Full Sail University",
         address: "123 University Ave",
@@ -203,7 +203,7 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
     console.log("Joe Smith's GPA:",schoolInfo.students[1].GPA);
     console.log("Joe Smith's GPA:",schoolInfo["students"][1]["GPA"]);
 
-
+*/
 
 /* ----------------------------------------------------------------------------
  STUDENT ACTIVITY 2:
@@ -216,7 +216,7 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
     2.  console.log the average grade by calling the gradeAvg method.
 ----------------------------------------------------------------------------- */
-
+/*
         var gradeAvg = function(schoolInfo){
             var count = 0;
             var total = 0;
@@ -231,7 +231,7 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
         };
 
         console.log("Average Grade:", gradeAvg(schoolInfo));
-
+*/
 
 /* ===============================================================
 	The for-in object loop
@@ -243,7 +243,12 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 */
     console.log("---------- Object - For In Loop ----------------");
 
+    var students = {name:"James Bond",gender:"Male",job:"student"};
 
+    for(var key in students){
+      console.log("Key Name: ", key);
+      console.log('Value of the key[',key,']: ', students[key]);
+    };
 
 /*
 	===============================================
@@ -278,6 +283,11 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 */
     console.log('------ Objects - Converting Datatypes ----------');
 
+    var myNum = 1;
+    myString = String(myNum);
+    console.log("myString: ", typeof myString, myString);
+    myBool = Boolean(myString);//1 = true, 0 = false
+    console.log("myBool: ", typeof myBool, myBool);
 
 
 /*
@@ -289,18 +299,45 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
 // #1 - shows string length
 
+    myStr = "OMG";
+    console.log(myStr.length);
 
 // #2 - shows array length
 
+    myArr = [6,10];
+    console.log(myArr.length);
 
 // #3 - shows and array of objects, inside of an object length
+
+    var schoolInfo = {
+        schoolName: "Full Sail University",
+        address: "123 University Ave",
+        studentCount: "30000",
+        students: [
+            {name: "Jane Doe", GPA: 3.9, classes: ["PWA1", "PWA2"]},
+            {name:"Joe Smith", GPA: 2.4},
+            {name:"Katie Brand", GPA: 4.0}
+        ]
+
+
+    };
+
+    console.log("number of object fields", schoolInfo.students.length);
 
 
 console.log('------ MORE Object examples - Objects/Functions ----------');
 
 // showing a function call and creating a method
 
+    var fn = function(name, course){
+        return{
+            sayHi: function(){
+                console.log("My name is", + name + "I am in course" + course);
+            }
+        }
+    };
 
+    fn("Jane Doe", "PWA1").sayHi();
 
 /*
 	==================================================================
