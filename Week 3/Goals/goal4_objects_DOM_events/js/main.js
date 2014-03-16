@@ -1,4 +1,7 @@
 /*
+    Name: Emily Van Vlerah
+    Date: March 16th, 2014
+
     PWA1: Goal 4: Course Material 4
 
 	1. Objects
@@ -29,25 +32,36 @@
 console.log('------Objects ----------');
 
 //{KEY : Value} pairings,
+    person = {'name':'Bond', 'age':35, 'secretAgent':true};
+
+    person = {name:'Bond', age:35, secretAgent:true};
 
 
 
-/* accessing object properties
-     - below are 3 ways you can access the property information in an object
-         1. dot notation
-         2. index notation using a variable as the index
-         3. index notation using a string
 
-     - also keep in mind that since the keys can be strings, you could access the keys using string variables
- */
+    /* accessing object properties
+         - below are 3 ways you can access the property information in an object
+             1. dot notation
+             2. index notation using a variable as the index
+             3. index notation using a string
+
+         - also keep in mind that since the keys can be strings, you could access the keys using string variables
+     */
+
+    var personAge = "age";
+    console.log(person.name, person[personAge], person["secretAgent"]);
 
 
 // setter
-
-
+    person["age"] = "40";
+    person.name = "James Bond";
+    console.log(person);
 
 //nested objects
+    person = {birthday:{month:02, day:12}, name:"Bond"};
+    console.log(person["birthday"]["month"]);//singled out month and out put the answer to the console.
 
+    console.log(person.birthday.month);
 
 
 //---------------------------------------------
