@@ -179,6 +179,30 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
 // this is integrating multiple data types - object with an array of objects
 
+    var schoolInfo = {
+        schoolName: "Full Sail University",
+        address: "123 University Ave",
+        studentCount: "30000",
+        students: [
+            {name: "Jane Doe", GPA: 3.9, classes: ["PWA1", "PWA2"]},
+            {name:"Joe Smith", GPA: 2.4},
+            {name:"Katie Brand", GPA: 4.0}
+        ]
+
+
+    };
+
+    console.log(schoolInfo.schoolName);
+    console.log(schoolInfo["schoolName"]);
+
+    var newCnt = "studentCount";
+    console.log(schoolInfo[newCnt]);
+
+    console.log(schoolInfo["address"]);
+
+    console.log("Joe Smith's GPA:",schoolInfo.students[1].GPA);
+    console.log("Joe Smith's GPA:",schoolInfo["students"][1]["GPA"]);
+
 
 
 /* ----------------------------------------------------------------------------
@@ -193,7 +217,20 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
     2.  console.log the average grade by calling the gradeAvg method.
 ----------------------------------------------------------------------------- */
 
+        var gradeAvg = function(schoolInfo){
+            var count = 0;
+            var total = 0;
 
+            for (var i = 0, j = schoolInfo.students.length; i < j; i++){
+                count++;
+                total = total + schoolInfo.students[i]["GPA"];
+            };
+
+            return total/count;
+
+        };
+
+        console.log("Average Grade:", gradeAvg(schoolInfo));
 
 
 /* ===============================================================
