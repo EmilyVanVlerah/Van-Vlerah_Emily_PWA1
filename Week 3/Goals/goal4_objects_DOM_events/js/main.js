@@ -488,7 +488,7 @@ console.log('------------ querySelectorAll -------------------');
         attr = href, src, class
 */
 console.log('---------Manipulating Attributes setAttribute / getAttribute----------');
-
+/*
     var navLinks = document.querySelectorAll('#nav li');
 
     for(var i= 0, max=navLinks.length; i<max; i++){
@@ -502,7 +502,7 @@ console.log('---------Manipulating Attributes setAttribute / getAttribute-------
             href2.setAttribute('href', 'http://www.fullsail.com');
         };
     //};
-
+*/
 
 /*
 	==================================================================
@@ -527,7 +527,7 @@ console.log('------------ Manipulating CSS Classes -------------------');
 
 
 console.log('------------Manipulating HTML--------------');
-
+/*
         navLinks[i].firstChild.setAttribute('href','http://www.google.com');
 
 
@@ -541,6 +541,7 @@ console.log('------------Manipulating HTML--------------');
     for(var i = 0, max = navLinks.length; i<max; i++){
         navLinks[i].innerHTML = "Click Me"+i;
     }
+*/
 
 /*
 	==================================================================
@@ -553,8 +554,8 @@ console.log('------------Manipulating HTML--------------');
 Sample Link: http://www.instructables.com/files/deriv/FJI/WGSW/FPIUQQ3K/FJIWGSWFPIUQQ3K.MEDIUM.jpg
 */
 
-    var bigImage = document.querySelector('#contentPreview img');
-    bigImage.setAttribute('src','http://www.instructables.com/files/deriv/FJI/WGSW/FPIUQQ3K/FJIWGSWFPIUQQ3K.MEDIUM.jpg');
+   // var bigImage = document.querySelector('#contentPreview img');
+   // bigImage.setAttribute('src','http://www.instructables.com/files/deriv/FJI/WGSW/FPIUQQ3K/FJIWGSWFPIUQQ3K.MEDIUM.jpg');
 
 
 
@@ -591,6 +592,15 @@ console.log('------------ DOM Events Ex 1-------------------');
 
 var nav = document.querySelectorAll('#nav li a');
 
+    for(i = 0, max = nav.length; i < max; i++){
+        console.log(nav[i]);
+
+        nav[i].onclick = function(e){//literal function
+            console.log(e);
+            e.preventDefault();
+            return false;
+        };
+    };
 
 /*
 // this just console.log's when a click occurs
