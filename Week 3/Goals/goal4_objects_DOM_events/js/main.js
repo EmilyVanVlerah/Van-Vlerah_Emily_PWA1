@@ -242,14 +242,14 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 	}
 */
     console.log("---------- Object - For In Loop ----------------");
-
+/*
     var students = {name:"James Bond",gender:"Male",job:"student"};
 
     for(var key in students){
       console.log("Key Name: ", key);
       console.log('Value of the key[',key,']: ', students[key]);
     };
-
+*/
 /*
 	===============================================
 	MORE Object infomation
@@ -282,7 +282,7 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 			- using these constructors, we can also convert from one data type to another.
 */
     console.log('------ Objects - Converting Datatypes ----------');
-
+/*
     var myNum = 1;
     myString = String(myNum);
     console.log("myString: ", typeof myString, myString);
@@ -298,7 +298,7 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 */
 
 // #1 - shows string length
-
+/*
     myStr = "OMG";
     console.log(myStr.length);
 
@@ -338,7 +338,7 @@ console.log('------ MORE Object examples - Objects/Functions ----------');
     };
 
     fn("Jane Doe", "PWA1").sayHi();
-
+*/
 /*
 	==================================================================
 	DOCUMENT OBJECT MODEL
@@ -355,13 +355,14 @@ console.log('------------ DOCUMENT OBJECT MODEL -------------------');
  console.log(window.location);
  console.log(window.history);
  console.log(window.navigator);
-
+*/
+/*
  //Document DOM object
  console.log(document);
  console.log(document.body);
  console.log(document.head);
- */
 
+*/
 
 /*
 	==================================================================
