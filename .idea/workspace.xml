@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="708939c0-e734-4f1b-bae8-8bb5f21f885d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_RegEx_Math_Date/js/script.js" afterPath="$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_RegEx_Math_Date/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/Goals/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Week 3/Goals/.idea/workspace.xml" />
     </list>
     <ignored path="Programming for Web Applications I.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_RegEx_Math_Date/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="414" column="76" selection-start="12437" selection-end="12437" vertical-scroll-proportion="0.6574803" vertical-offset="6043" max-vertical-offset="6885">
+            <state line="414" column="79" selection-start="12440" selection-end="12440" vertical-scroll-proportion="0.77559054" vertical-offset="6013" max-vertical-offset="6855">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -317,7 +316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_RegEx_Math_Date/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="414" column="76" selection-start="12437" selection-end="12437" vertical-scroll-proportion="0.6574803" vertical-offset="6043" max-vertical-offset="6885">
+        <state line="414" column="79" selection-start="12440" selection-end="12440" vertical-scroll-proportion="0.77559054" vertical-offset="6013" max-vertical-offset="6855">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
