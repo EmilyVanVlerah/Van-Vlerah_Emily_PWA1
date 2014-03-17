@@ -34,13 +34,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal4_objects_DOM_events/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="679" column="52" selection-start="20367" selection-end="20367" vertical-scroll-proportion="0.78723407" vertical-offset="9963" max-vertical-offset="10530">
+            <state line="679" column="52" selection-start="20367" selection-end="20367" vertical-scroll-proportion="0.0" vertical-offset="9963" max-vertical-offset="10530">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/goal5_RegEx_Math_Date/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="26" selection-start="57" selection-end="57" vertical-scroll-proportion="0.15957446" vertical-offset="0" max-vertical-offset="6735">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,6 +66,7 @@
       <list>
         <option value="$PROJECT_DIR$/goal3_bug_scope/js/main.js" />
         <option value="$PROJECT_DIR$/goal4_objects_DOM_events/js/main.js" />
+        <option value="$PROJECT_DIR$/goal5_RegEx_Math_Date/js/script.js" />
       </list>
     </option>
   </component>
@@ -109,18 +119,8 @@
               <option name="myItemId" value="Goals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Goals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Goals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goal4_objects_DOM_events" />
+              <option name="myItemId" value="goal5_RegEx_Math_Date" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -134,11 +134,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal4_objects_DOM_events" />
+              <option name="myItemId" value="goal5_RegEx_Math_Date" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Goals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,10 +283,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal4_objects_DOM_events/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="679" column="52" selection-start="20367" selection-end="20367" vertical-scroll-proportion="0.78723407" vertical-offset="9963" max-vertical-offset="10530">
+        <state line="679" column="52" selection-start="20367" selection-end="20367" vertical-scroll-proportion="0.0" vertical-offset="9963" max-vertical-offset="10530">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal5_RegEx_Math_Date/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="57" selection-end="57" vertical-scroll-proportion="0.15957446" vertical-offset="0" max-vertical-offset="6735">
+          <folding />
         </state>
       </provider>
     </entry>

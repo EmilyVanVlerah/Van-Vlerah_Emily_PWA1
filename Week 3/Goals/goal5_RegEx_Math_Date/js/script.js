@@ -1,4 +1,7 @@
 /*
+
+    Name: Emily Van Vlerah
+    Date: March 17th, 2014
     PWA1: Goal 5: Course Material
     Regular Expression / Math Methods / Date Methods
 */
