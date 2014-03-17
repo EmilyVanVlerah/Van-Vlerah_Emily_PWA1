@@ -464,11 +464,11 @@ console.log('------------ querySelectorAll -------------------');
         Will be used in ALL future assignments.
     */
     console.log('------------ TRAVERSAL -------------------');
-
+/*
     var apple = document.querySelectorAll('#nav li a')[2];
     console.log(apple);
     console.log((apple.parentNode.parentNode.parentNode).nextSibling);
-
+*/
 
 
 
@@ -487,7 +487,21 @@ console.log('------------ querySelectorAll -------------------');
 
         attr = href, src, class
 */
+console.log('---------Manipulating Attributes setAttribute / getAttribute----------');
 
+    var navLinks = document.querySelectorAll('#nav li');
+
+    for(var i= 0, max=navLinks.length; i<max; i++){
+        var href = navLinks[i].firstChild.getAttribute("href");
+        console.log('Manipulation HREF: ',href);
+
+        if(href === '#1'){
+            var href2 = navLinks[i].firstChild;
+            console.log(href2);
+
+            href2.setAttribute('href', 'http://www.fullsail.com');
+        };
+    //};
 
 
 /*
@@ -505,6 +519,14 @@ console.log('------------ querySelectorAll -------------------');
 */
 
 console.log('------------ Manipulating CSS Classes -------------------');
+
+        var aClass = navLinks[i].firstChild.getAttribute('class');
+        console.log('Manipulation Class: ', aClass);
+
+        navLinks[i].firstChild.setAttribute('class','navitem active');
+
+    };
+
 
 
 /*
