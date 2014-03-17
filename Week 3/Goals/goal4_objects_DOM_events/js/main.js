@@ -420,16 +420,15 @@ console.log('------------ getElementsByTagName -------------------');
 */
 
 console.log('------------ querySelectorAll -------------------');
-
+/*
     var nav = document.querySelectorAll("#nav li:last-child");//class would require a dot, ID requires #
     console.log(nav);
 
     var cf = document.querySelectorAll(".clearfix");
     console.log(cf);
 
-    var nav = document.querySelector("#nav");
-    console.log(nav);
 
+*/
 
     /*
         ==================================================================
@@ -442,7 +441,8 @@ console.log('------------ querySelectorAll -------------------');
     */
     console.log('------------ querySelector -------------------');
 
-
+  //  var nav = document.querySelector("#nav");
+  //  console.log(nav);
 
     /*
         ==================================================================
