@@ -421,7 +421,7 @@ STUDENT ACTIVITY
      (100, 1000, 50, 2, 55, 75)
 
 
-     2.  Produce a random number between 100 and 10,000.
+     2.  Produce a integer random number between 100 and 10,000.
 
 
      3. 	Produce a random number between 100 and 10, and round it to the nearest
@@ -429,6 +429,16 @@ STUDENT ACTIVITY
 
 
     ****************************************************************************/
+//1.
+    console.log(Math.max(100,1000,50,2,55,75));
+    console.log(Math.min(100,1000,50,2,55,75));
+
+//2.
+    console.log(Math.floor(Math.random() * 10000 + 100));
+
+//3.
+    var rand = (Math.random() * 100 + 10);
+    console.log(Math.round(rand));
 
 
 
