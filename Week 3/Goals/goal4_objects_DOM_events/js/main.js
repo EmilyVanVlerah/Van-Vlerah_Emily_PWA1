@@ -381,12 +381,12 @@ console.log('------------ DOCUMENT OBJECT MODEL -------------------');
 */
 
 console.log('------------ getElementById -------------------');
-
+/*
     var playbox = document.getElementById("playbox");
     console.log(playbox);
 
     playbox.style.backgroundColor = "Red";
-
+*/
 
 /*
 	==================================================================
@@ -397,7 +397,7 @@ console.log('------------ getElementById -------------------');
 */
 
 console.log('------------ getElementsByTagName -------------------');
-
+/*
     var anchors = document.getElementsByTagName('a');
     console.log(anchors);
 
@@ -407,7 +407,7 @@ console.log('------------ getElementsByTagName -------------------');
         console.log(anchors[i]);
     }
 
-
+*/
 /*
 	==================================================================
 	document.querySelectorAll(string);
@@ -421,21 +421,26 @@ console.log('------------ getElementsByTagName -------------------');
 
 console.log('------------ querySelectorAll -------------------');
 
+    var nav = document.querySelectorAll("#nav li:last-child");//class would require a dot, ID requires #
+    console.log(nav);
+
+    var cf = document.querySelectorAll(".clearfix");
+    console.log(cf);
+
+    var nav = document.querySelector("#nav");
+    console.log(nav);
 
 
+    /*
+        ==================================================================
+        document.querySelector(string);
+        ------------------------------------------------------------------
+            - Works just like querySelectorAll, but only returns the first match,
+                If multiple exist, return the first
 
-/*
-	==================================================================
-	document.querySelector(string);
-	------------------------------------------------------------------
-		- Works just like querySelectorAll, but only returns the first match,
-			If multiple exist, return the first
-
-		- RETURNS a single DOM object.
-*/
+            - RETURNS a single DOM object.
+    */
     console.log('------------ querySelector -------------------');
-
-
 
 
 
