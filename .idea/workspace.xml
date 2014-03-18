@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="708939c0-e734-4f1b-bae8-8bb5f21f885d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_guessing_Van Vlerah_Emily/js/main.js" afterPath="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_guessing_Van Vlerah_Emily/js/main.js" />
-    </list>
+    <list default="true" id="708939c0-e734-4f1b-bae8-8bb5f21f885d" name="Default" comment="" />
     <ignored path="Programming for Web Applications I.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,19 +35,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+            <state line="5" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.16853933" vertical-offset="0" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="-16.833334" vertical-offset="76" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_guessing_Van Vlerah_Emily/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="6" selection-start="531" selection-end="531" vertical-scroll-proportion="0.71910113" vertical-offset="213" max-vertical-offset="570">
+            <state line="27" column="6" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -95,14 +102,15 @@
         <option value="$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_RegEx_Math_Date/js/script.js" />
         <option value="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/js/main.js" />
         <option value="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_guessing_Van Vlerah_Emily/js/main.js" />
+        <option value="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
-    <option name="y" value="443" />
+    <option name="x" value="327" />
+    <option name="y" value="145" />
     <option name="width" value="1077" />
-    <option name="height" value="364" />
+    <option name="height" value="555" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -210,7 +218,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal4_assign_guessing_Van Vlerah_Emily" />
+              <option name="myItemId" value="goal4_assign_duel3_Van Vlerah_Emily" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,7 +244,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal4_assign_guessing_Van Vlerah_Emily" />
+              <option name="myItemId" value="goal4_assign_duel3_Van Vlerah_Emily" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -302,7 +310,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="443" width="1077" height="364" extended-state="1" />
+    <frame x="327" y="145" width="1077" height="555" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -369,19 +377,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/js/main.js">
+    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_guessing_Van Vlerah_Emily/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+        <state line="27" column="6" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="-16.833334" vertical-offset="76" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_guessing_Van Vlerah_Emily/js/main.js">
+    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="531" selection-end="531" vertical-scroll-proportion="0.71910113" vertical-offset="213" max-vertical-offset="570">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="5" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.16853933" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
         </state>
       </provider>
     </entry>
