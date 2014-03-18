@@ -8,10 +8,25 @@
  */
 
 //Game variables
-(function ()
+(function (){
 
-var rand = (Math.random() * 10 + 1);
-console.log('rand: ', rand);
+    var rand = (Math.floor(Math.random() * 10 + 1));
+        console.log(rand);
+
+    var dom = {
+        input: document.querySelector('#input'),
+        output: document.querySelector('#output'),
+        button: document.querySelector('button')
+    };
+
+    var validateInput = function(){
+        playersGuess = parseInt(dom.input.value);
+
+        if(isNaN(playersGuess)){
+
+        }
+    };
+
 
 
 
