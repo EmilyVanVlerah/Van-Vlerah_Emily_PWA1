@@ -10,5 +10,9 @@
 //Game variables
 (function ()
 
+var rand = (Math.random() * 10 + 1);
+console.log('rand: ', rand);
+
+
 
 })();

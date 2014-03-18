@@ -403,7 +403,7 @@ STUDENT ACTIVITY
 */
 
     console.log('------------ Math Methods -------------------');
-/*
+
     //console.log(document.getElementById('tagbox').innerHTML=Math.random());
 
     var rand = (Math.random() * 10 + 1);
@@ -413,7 +413,7 @@ STUDENT ACTIVITY
 
     console.log(document.getElementById('tagbox').innerHTML = Math.min(5,10));
     console.log(document.getElementById('tagbox').innerHTML = Math.round(2.5));
-*/
+
     /******************************************************************************
      STUDENT ACTIVITY
 
