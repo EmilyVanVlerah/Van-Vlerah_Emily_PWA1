@@ -26,3 +26,35 @@ students.push({name: 'jtuttle', address:{address:"3300 University Blvd", city: "
 
 //skipping console.log
 
+/*
+
+ var display = function(e){
+    var counter = 0;
+    for (var i = 0; i <students.length; i++){
+        counter++;
+        var name = students[i].name;
+        var address =
+        var gpa =
+    };
+    for (var ii = 0; ii < ?.length; ii++){
+        setters for innerHTML for each variable
+
+    };
+
+ };
+
+ element.addEventListener(‘click’, display, false);
+
+
+ var numAvg = function(arr2){
+ var avgArr = 0;
+ for(i=0, j=arr2.length; i<j; i++){
+ avgArr += arr2[i];
+ };
+ avgArr /= j;
+ return avgArr;
+ };
+ console.log("The average number is " + numAvg([10, 20, 30, 20, 10, 20]));
+
+ */
+

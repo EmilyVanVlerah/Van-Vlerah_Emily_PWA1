@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="708939c0-e734-4f1b-bae8-8bb5f21f885d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/index.html" afterPath="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/Goals/Goal 6/goal6_assign_midterm/js/main.js" afterPath="$PROJECT_DIR$/Week 3/Goals/Goal 6/goal6_assign_midterm/js/main.js" />
     </list>
     <ignored path="Programming for Web Applications I.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 6/goal6_assign_midterm/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="991" selection-end="991" vertical-scroll-proportion="0.8219585" vertical-offset="143" max-vertical-offset="510">
+            <state line="14" column="31" selection-start="447" selection-end="447" vertical-scroll-proportion="0.6231454" vertical-offset="0" max-vertical-offset="990">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -347,7 +347,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 6/goal6_assign_midterm/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="991" selection-end="991" vertical-scroll-proportion="0.8219585" vertical-offset="143" max-vertical-offset="510">
+        <state line="14" column="31" selection-start="447" selection-end="447" vertical-scroll-proportion="0.6231454" vertical-offset="0" max-vertical-offset="990">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
