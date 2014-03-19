@@ -600,7 +600,7 @@ var nav = document.querySelectorAll('#nav li a');
             e.preventDefault();
             return false;
         };
-    */
+    };*/
 
 /*
 // this just console.log's when a click occurs

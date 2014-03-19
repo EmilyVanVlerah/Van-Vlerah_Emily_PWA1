@@ -7,7 +7,7 @@
 */
 
 var students = [{name: 'jbond', address:{address:"3300 University Blvd", city: "Winter Park", state: "Fl"}, GPA: [2.5, 3.5, 4.0]},
-                {name: 'msanders', address:{address:"3300 University Blvd", city: "Winter Park", state: "Fl"}, GPA: [2.5, 3.5, 4.0]}];
+                {name: 'msanders', address:{address:"123 Test Dr", city: "Orlando", state: "Fl"}, GPA: [2.2, 3.2, 4.0]}];
 
 
 //Student 1
@@ -44,6 +44,16 @@ students.push({name: 'jtuttle', address:{address:"3300 University Blvd", city: "
  };
 
  element.addEventListener(‘click’, display, false);
+
+ for(i = 0, max = nav.length; i < max; i++){
+ console.log(nav[i]);
+
+ nav[i].onclick = function(e){//literal function
+ console.log(e);
+ e.preventDefault();
+ return false;
+ };
+ };
 
 
  var numAvg = function(arr2){
