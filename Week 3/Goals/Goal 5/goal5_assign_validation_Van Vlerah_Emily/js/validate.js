@@ -10,6 +10,9 @@
         //Below is one example of the validateField call with an argument.
         //You must dynamically retrieve the ID name from the DOM/HTML.
 
+        var info = document.querySelector('#f_username', '#f_email', '#f_phone', '#f_ssn', '#f_password');
+
+
         validateField(id);  //id = is the form input field ID
 
 
@@ -25,6 +28,18 @@
 
             //You will need to create an else-if statement for each input field id.  The
             //      format will be similar to the above IF statement.
+
+            if(inputName.name === 'f_username'){
+
+            }else if(inputName.name === 'f_email'){
+
+            }else if(inputName.name === 'f_phone'){
+
+            }else if(inputName.name === 'f_ssn'){
+
+            }else if(inputName.name === 'f_password'){
+
+            };
 
 
         };
