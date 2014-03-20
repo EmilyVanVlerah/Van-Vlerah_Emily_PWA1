@@ -21,7 +21,7 @@
     };
 
 
-    var validateField = function(inputName){
+    var validateField = function(info){
 
        // if (inputName.name === 'id name goes here'){
             //var pattern = 'a RegEx pattern goes here'
@@ -29,15 +29,15 @@
             //You will need to create an else-if statement for each input field id.  The
             //      format will be similar to the above IF statement.
 
-       if(inputName.name === 'f_username'){
+       if(info.name === 'f_username'){
             var pattern = 'a RegEx pattern goes here'
-       }else if(inputName.name === 'f_email'){
+       }else if(info.name === 'f_email'){
             var pattern = 'a RegEx pattern goes here'
-       }else if(inputName.name === 'f_phone'){
+       }else if(info.name === 'f_phone'){
             var pattern = 'a RegEx pattern goes here'
-       }else if(inputName.name === 'f_ssn'){
+       }else if(info.name === 'f_ssn'){
             var pattern = 'a RegEx pattern goes here'
-       }else if(inputName.name === 'f_password'){
+       }else if(info.name === 'f_password'){
             var pattern = 'a RegEx pattern goes here'
        }
 
