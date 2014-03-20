@@ -44,7 +44,7 @@
 
         //};
 
-        var pass = 'the RegEx .test statement is needed here';
+        var pass = validateField.test();
         var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
 
         if (!pass || inputName.value.length < 2){
