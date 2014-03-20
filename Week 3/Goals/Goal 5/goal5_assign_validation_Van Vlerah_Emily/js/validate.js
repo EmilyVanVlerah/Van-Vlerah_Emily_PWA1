@@ -41,15 +41,15 @@
             //      format will be similar to the above IF statement.
 
        if(inputName.name === 'f_username'){
-            var pattern = 'a RegEx pattern goes here'
+            var pattern = '^((Fred|Wilma)\s+Flintstone|(Barney|Betty)\s+Rubble)$'
        }else if(inputName.name === 'f_email'){
-            var pattern = 'a RegEx pattern goes here'
+            var pattern = '\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*([,;]\s*\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*)*'
        }else if(inputName.name === 'f_phone'){
-            var pattern = 'a RegEx pattern goes here'
+            var pattern = '^([\(]{1}[0-9]{3}[\)]{1}[ ]{1}[0-9]{3}[\-]{1}[0-9]{4})$'
        }else if(inputName.name === 'f_ssn'){
-            var pattern = 'a RegEx pattern goes here'
+            var pattern = '^\d{3}-\d{2}-\d{4}$'
        }else if(inputName.name === 'f_password'){
-            var pattern = 'a RegEx pattern goes here'
+            var pattern = '^[a-zA-Z]\w{3,14}$'
        }
 
 
