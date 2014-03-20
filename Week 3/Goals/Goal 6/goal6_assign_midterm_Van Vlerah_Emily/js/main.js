@@ -27,6 +27,8 @@ students.push({name: 'jtuttle', address:{address:"3300 University Blvd", city: "
 //skipping console.log
 
 /*
+ button.onclick = next;
+
 
  var display = function(e){
     var counter = 0;
@@ -43,28 +45,30 @@ students.push({name: 'jtuttle', address:{address:"3300 University Blvd", city: "
 
  };
 
- element.addEventListener(‘click’, display, false);
-
- for(i = 0, max = nav.length; i < max; i++){
- console.log(nav[i]);
-
- nav[i].onclick = function(e){//literal function
- console.log(e);
- e.preventDefault();
- return false;
- };
- };
-
 
  var numAvg = function(arr2){
- var avgArr = 0;
- for(i=0, j=arr2.length; i<j; i++){
- avgArr += arr2[i];
- };
- avgArr /= j;
- return avgArr;
+    var avgArr = 0;
+    for(i=0, j=arr2.length; i<j; i++){
+        avgArr += arr2[i];
+    };
+    avgArr /= j;
+    return avgArr;
  };
  console.log("The average number is " + numAvg([10, 20, 30, 20, 10, 20]));
 
+
+
+ if (result === "no winner"){
+    fighter1_txt.innerHTML = fighters[0].name + ":" + fighters[0].health;
+    fighter2_txt.innerHTML = fighters[1].name + ":" + fighters[1].health;
+
+ } else{
+    fighter1_txt.innerHTML = result;
+    fighter2_txt.innerHTML = "";
+
+    button.onclick = "return false";
+
+    document.querySelector('.buttonblue').innerHTML = 'DONE!!!';
+ }
  */
 
