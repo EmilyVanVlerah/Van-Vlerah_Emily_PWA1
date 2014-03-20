@@ -149,6 +149,8 @@
 
     function winnerCheck(){ //updated winnerCheck with the new object arrays
 
+        console.log('in winnerCheck FN');
+
         var result = "no winner";
 
         /*  if (fighter1[2]<1 && fighter2[2]<1) {
@@ -167,12 +169,13 @@
             result = fighters[0].name+ "WINS!!!"
         };
         return result;
+        fight();
     };
 
 
 
     console.log("program starts");
-    fight();
+
 
 })();
 
