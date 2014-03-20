@@ -56,7 +56,7 @@
         } else {
             errorMsg.style.display='none';
             inputName.style.backgroundColor = 'white';
-        };
+        }
     };
 
 })();  // end wrapper
