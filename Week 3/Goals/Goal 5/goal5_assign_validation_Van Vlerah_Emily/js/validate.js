@@ -13,10 +13,18 @@
         //Below is one example of the validateField call with an argument.
         //You must dynamically retrieve the ID name from the DOM/HTML.
 
-        var inputName = document.querySelector('#f_username', '#f_email', '#f_phone', '#f_ssn', '#f_password');
+        var input_uname = document.querySelector('#f_username');
+        var input_email = document.querySelector('#f_email');
+        var input_phone = document.querySelector('#f_phone');
+        var input_password = document.querySelector('#f_password');
+        var input_ssn = document.querySelector('#f_ssn');
 
 
-        validateField(id);  //id = is the form input field ID
+        validateField(input_uname);  //id = is the form input field ID
+        validateField(input_email);
+        validateField(input_phone);
+        validateField(input_password);
+        validateField(input_ssn);
 
 
         e.preventDefault();
