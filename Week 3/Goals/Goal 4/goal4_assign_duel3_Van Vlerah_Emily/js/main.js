@@ -111,7 +111,7 @@
             fighter1_txt.innerHTML = result;
             fighter2_txt.innerHTML = "";
 
-            button.onclick = "return false";
+            button.onclick = "null";
 
             document.querySelector('.buttonblue').innerHTML = 'DONE!!!';
         }
