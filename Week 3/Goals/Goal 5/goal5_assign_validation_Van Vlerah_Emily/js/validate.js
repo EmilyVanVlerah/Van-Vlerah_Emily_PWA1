@@ -44,7 +44,7 @@
 
         //};
 
-        var pass = validateField.test();
+        var pass = validateField();
         var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
 
         if (!pass || inputName.value.length < 2){
