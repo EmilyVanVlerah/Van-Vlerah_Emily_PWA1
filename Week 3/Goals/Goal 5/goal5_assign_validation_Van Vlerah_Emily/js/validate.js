@@ -1,4 +1,7 @@
 /*
+    Name: Emily Van Vlerah
+    Date: March 20th, 2014
+
      Developed by the JavaScript team at Fullsail
      Date: 1306
 */
