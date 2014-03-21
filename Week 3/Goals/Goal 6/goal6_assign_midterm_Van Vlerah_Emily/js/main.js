@@ -5,26 +5,20 @@
 
 	* Mid Terms for PWA-1
 */
+var students = [{name: 'jbond', address:{address: '3300 University Blvd', city:'Winter Park', state: 'FL'}, gpa: [2.5, 3.5, 4.0]},
+    {name: 'msanders', address:{address: '3300 University Blvd', city:'Winter Park', state: 'FL'}, gpa: [2.5, 3.5, 4.0]}];
 
-var students = [{name: 'jbond', address:{address:"3300 University Blvd", city: "Winter Park", state: "Fl"}, GPA: [2.5, 3.5, 4.0]},
-                {name: 'msanders', address:{address:"123 Test Dr", city: "Orlando", state: "Fl"}, GPA: [2.2, 3.2, 4.0]}];
+var index = 0;
 
-
-//Student 1
-//for(var=0; i<array.length; i++){console.log()};
 console.log('Name: ',students[0].name);
-console.log('Address:',students[0].address['address'],students[0].address['city'],students[0].address['state']);
-console.log('GPA: ',students[0].GPA.toString());
+console.log('Address: ',students[0].address['address'],students[0].address['city'],students[0].address['state'] );
+console.log('GPA: ',students[0].gpa.toString());
 
-//Student2
 console.log('Name: ',students[1].name);
-console.log('Address:',students[1].address['address'],students[1].address['city'],students[1].address['state']);
-console.log('GPA: ',students[1].GPA.toString());
+console.log('Address: ',students[1].address['address'],students[1].address['city'],students[1].address['state'] );
+console.log('GPA: ',students[1].gpa.toString());
 
-
-students.push({name: 'jtuttle', address:{address:"3300 University Blvd", city: "Winter Park", state: "Fl"}, GPA: [2.5, 3.5, 4.0]});
-
-//skipping console.log
+students.push({name: 'mmouse', address:{address: '3300 University Blvd', city:'Winter Park', state: 'FL'}, gpa: [2.5, 3.5, 4.0]});
 
 function display(){
 
