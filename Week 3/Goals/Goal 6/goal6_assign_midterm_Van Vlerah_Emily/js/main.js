@@ -7,9 +7,10 @@
 */
 
 var students = [{name: 'jbond', address:{address: '3300 University Blvd', city:'Winter Park', state: 'FL'}, gpa: [2.5, 3.5, 4.0]},
-    {name: 'msanders', address:{address: '3322 University Street', city:'Orlando', state: 'FL'}, gpa: [2.3, 3.7, 4.0]}]
+    {name: 'msanders', address:{address: '3322 University Street', city:'Orlando', state: 'FL'}, gpa: [2.3, 3.7, 4.0]}];
 
-
+var index = [0];
+/*
 var gpaAvg = function(students){
     var count = 0;
     var total = 0;
@@ -23,8 +24,8 @@ var gpaAvg = function(students){
 
 };
 console.log("Average GPA:", gpaAvg(students));
+*/
 
-var index = [0];
 
 var date = new Date();
 
@@ -35,7 +36,7 @@ for(var i = 0; i<students.length; i++){
     console.log('Name: ',students[i].name);
     console.log('Address: ',students[i].address['address'],students[i].address['city'],students[i].address['state'] );
     console.log('GPA: ',students[i].gpa.toString());
-    console.log(date.toLocaleDateString());
+    console.log('Date: ', date.toLocaleDateString());
 
  }
 
@@ -93,6 +94,6 @@ function display(){
 var button = document.getElementsByClassName('buttonred');
 
 
-//button[0].onclick = display();
-
 button[0].addEventListener('click', display, false);
+
+//document.querySelector('buttonred').innerHTML = 'DONE!!!';
