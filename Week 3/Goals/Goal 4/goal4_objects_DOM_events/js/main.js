@@ -178,7 +178,7 @@ STUDENT ACTIVITY 1:
 console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
 // this is integrating multiple data types - object with an array of objects
-/*
+
     var schoolInfo = {
         schoolName: "Full Sail University",
         address: "123 University Ave",
@@ -203,7 +203,7 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
     console.log("Joe Smith's GPA:",schoolInfo.students[1].GPA);
     console.log("Joe Smith's GPA:",schoolInfo["students"][1]["GPA"]);
 
-*/
+
 
 /* ----------------------------------------------------------------------------
  STUDENT ACTIVITY 2:
@@ -216,7 +216,7 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
     2.  console.log the average grade by calling the gradeAvg method.
 ----------------------------------------------------------------------------- */
-/*
+
         var gradeAvg = function(schoolInfo){
             var count = 0;
             var total = 0;
@@ -231,7 +231,7 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
         };
 
         console.log("Average Grade:", gradeAvg(schoolInfo));
-*/
+
 
 /* ===============================================================
 	The for-in object loop
