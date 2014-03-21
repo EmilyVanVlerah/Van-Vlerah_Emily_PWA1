@@ -27,22 +27,21 @@ function display(){
     if(index <students.length){
         var innerName = document.getElementById("name");
         var innerAddress = document.getElementById("address");
-        var gpa = document.getElementById("gpa");
+        var innerGpa = document.getElementById("gpa");
         //console.log(innerName);
 
         innerName.innerHTML = 'Name: ' + students[index].name;
         innerAddress.innerHTML = 'Address: ' + students[index].address.address + " " + students[index].address.city + " " + students[index].address.state;
+        innerGpa.innerHTML = 'GPA: ' + students[index].gpa;
     }
     return false;
 
 
-};
+}
 
 
 
 var button = document.getElementsByClassName('buttonred');
-
-//var button = "TEST";
 
 
 //button[0].onclick = display();

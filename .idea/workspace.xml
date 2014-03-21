@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="708939c0-e734-4f1b-bae8-8bb5f21f885d" name="Default" comment="" />
+    <list default="true" id="708939c0-e734-4f1b-bae8-8bb5f21f885d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_guessing_Van Vlerah_Emily/MagicNumber.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_guessing_Van Vlerah_Emily/js/main.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/Goals/Goal 6/goal6_assign_midterm_Van Vlerah_Emily/js/main.js" afterPath="$PROJECT_DIR$/Week 3/Goals/Goal 6/goal6_assign_midterm_Van Vlerah_Emily/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Programming for Web Applications I.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,21 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="validate.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_assign_validation_Van Vlerah_Emily/js/validate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="840">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 6/goal6_assign_midterm_Van Vlerah_Emily/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="353" selection-end="402" vertical-scroll-proportion="0.084745765" vertical-offset="135" max-vertical-offset="1140">
+            <state line="24" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.33093524" vertical-offset="130" max-vertical-offset="825">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -64,11 +58,14 @@
         <option value="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/index.html" />
         <option value="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_objects_DOM_events/js/main.js" />
         <option value="$PROJECT_DIR$/Week 3/Goals/Goal 6/goal6_assign_midterm/js/main.js" />
+        <option value="$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_assign_validation_Van Vlerah_Emily/js/validate.js" />
         <option value="$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/js/main.js" />
+        <option value="$PROJECT_DIR$/Week 3/Goals/Goal 6/goal6_assign_midterm_Van Vlerah_Emily/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-6" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="805" />
@@ -114,80 +111,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Programming for Web Applications I" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming for Web Applications I" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming for Web Applications I" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week 3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Goals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Goal 6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goal6_assign_midterm_Van Vlerah_Emily" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming for Web Applications I" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming for Web Applications I" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week 3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Goals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Goal 6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goal6_assign_midterm_Van Vlerah_Emily" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming for Web Applications I" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming for Web Applications I" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week 3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Goals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,6 +163,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="708939c0-e734-4f1b-bae8-8bb5f21f885d" name="Default" comment="" />
@@ -249,7 +189,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="805" extended-state="7" />
+    <frame x="-6" y="22" width="1440" height="805" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -304,28 +244,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_guessing_Van Vlerah_Emily/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="531" selection-end="531" vertical-scroll-proportion="1.2017804" vertical-offset="0" max-vertical-offset="570">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 3/goal3_bug_scope/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-13.442137" vertical-offset="4530" max-vertical-offset="5520">
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="0" selection-end="557" vertical-scroll-proportion="0.37280703" vertical-offset="0" max-vertical-offset="684">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -336,34 +260,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_assign_validation_Van Vlerah_Emily/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.8902743" vertical-offset="1159" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_objects_DOM_events/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="676" column="56" selection-start="20298" selection-end="20298" vertical-scroll-proportion="5.4915257" vertical-offset="6252" max-vertical-offset="10530">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_assign_validation_Van Vlerah_Emily/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3248882" vertical-offset="889" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_assign_validation_Van Vlerah_Emily/pbar.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_assign_validation_Van Vlerah_Emily/pmeter.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="43" selection-start="3716" selection-end="3747" vertical-scroll-proportion="0.31779662" vertical-offset="1470" max-vertical-offset="3045">
+        <state line="39" column="17" selection-start="998" selection-end="998" vertical-scroll-proportion="0.6779661" vertical-offset="105" max-vertical-offset="3090">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 4/goal4_assign_duel3_Van Vlerah_Emily/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="139" selection-end="139" vertical-scroll-proportion="0.1754386" vertical-offset="0" max-vertical-offset="684">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 5/goal5_assign_validation_Van Vlerah_Emily/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="840">
+        <state line="53" column="0" selection-start="1906" selection-end="1906" vertical-scroll-proportion="1.1228814" vertical-offset="0" max-vertical-offset="1230">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -372,7 +313,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/Goals/Goal 6/goal6_assign_midterm_Van Vlerah_Emily/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="353" selection-end="402" vertical-scroll-proportion="0.084745765" vertical-offset="135" max-vertical-offset="1140">
+        <state line="24" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.33093524" vertical-offset="130" max-vertical-offset="825">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
