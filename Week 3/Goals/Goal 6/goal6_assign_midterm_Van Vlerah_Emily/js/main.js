@@ -30,7 +30,7 @@ function display(){
         //console.log(innerName);
 
         innerName.innerHTML = 'Name: ' + students[index].name;
-        innerAddress.innerHTML = 'Address: ' + students[index].address.address + " "+ students[index].address.city+ " "+students[index].address.state;
+        innerAddress.innerHTML = 'Address: ' + students[index].address.address + " " + students[index].address.city + " " + students[index].address.state;
     }
     return false;
 
