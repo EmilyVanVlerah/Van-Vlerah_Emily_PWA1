@@ -37,7 +37,7 @@
     //click action for button
     button.onclick = fight;
 
-    var round = 0;
+    var round = 1;
 
     //init HTML text
     round_txt.innerHTML = "Click To Start Fight";

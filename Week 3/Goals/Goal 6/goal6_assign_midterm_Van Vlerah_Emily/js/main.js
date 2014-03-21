@@ -26,49 +26,30 @@ students.push({name: 'jtuttle', address:{address:"3300 University Blvd", city: "
 
 //skipping console.log
 
-/*
- button.onclick = next;
+function display(){
 
 
- var display = function(e){
-    var counter = 0;
-    for (var i = 0; i <students.length; i++){
-        counter++;
-        var name = students[i].name;
-        var address =
-        var gpa =
-    };
-    for (var ii = 0; ii < ?.length; ii++){
-        setters for innerHTML for each variable
+    if(index <students.length){
+        var innerName = document.getElementById("name");
+        var innerAddress = document.getElementById("address");
+        var gpa = document.getElementById("gpa");
+        //console.log(innerName);
 
-    };
-
- };
+        innerName.innerHTML = 'Name: ' + students[index].name;
+        innerAddress.innerHTML = 'Address: ' + students[index].address.address + " "+ students[index].address.city+ " "+students[index].address.state;
+    }
+    return false;
 
 
- var numAvg = function(arr2){
-    var avgArr = 0;
-    for(i=0, j=arr2.length; i<j; i++){
-        avgArr += arr2[i];
-    };
-    avgArr /= j;
-    return avgArr;
- };
- console.log("The average number is " + numAvg([10, 20, 30, 20, 10, 20]));
+};
 
 
 
- if (result === "no winner"){
-    fighter1_txt.innerHTML = fighters[0].name + ":" + fighters[0].health;
-    fighter2_txt.innerHTML = fighters[1].name + ":" + fighters[1].health;
+var button = document.getElementsByClassName('buttonred');
 
- } else{
-    fighter1_txt.innerHTML = result;
-    fighter2_txt.innerHTML = "";
+//var button = "TEST";
 
-    button.onclick = "return false";
 
-    document.querySelector('.buttonblue').innerHTML = 'DONE!!!';
- }
- */
+//button[0].onclick = display();
 
+button[0].addEventListener('click', display, false);
