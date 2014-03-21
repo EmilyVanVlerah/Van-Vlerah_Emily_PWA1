@@ -10,6 +10,7 @@ var students = [{name: 'jbond', address:{address: '3300 University Blvd', city:'
 
 var index = 0;
 
+//for(var=0; i<array.length; i++){console.log()};
 console.log('Name: ',students[0].name);
 console.log('Address: ',students[0].address['address'],students[0].address['city'],students[0].address['state'] );
 console.log('GPA: ',students[0].gpa.toString());
