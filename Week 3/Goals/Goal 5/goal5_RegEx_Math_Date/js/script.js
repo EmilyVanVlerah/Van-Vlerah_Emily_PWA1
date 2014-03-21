@@ -467,6 +467,7 @@ STUDENT ACTIVITY
     console.log(d.getHours());
     console.log(d.getMilliseconds());
     console.log(d.getTime());
+    console.log(d.toLocaleDateString());//shows 6/23/2013
   */
 
     console.log(d.setFullYear(2021, 0, 01));
