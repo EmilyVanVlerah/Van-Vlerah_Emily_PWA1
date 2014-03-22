@@ -6,8 +6,8 @@
 	* Mid Terms for PWA-1
 */
 
-var students = [{name: 'jbond', address:{address: '3300 University Blvd', city:'Winter Park', state: 'FL'}, gpa: [2.5 + ', ' + 3.5 + ', ' + 4.0]},
-    {name: 'msanders', address:{address: '3322 University Street', city:'Orlando', state: 'FL'}, gpa: [2.3 + ', ' + 3.7 + ', ' + 4.0]}];
+var students = [{name: 'jbond', address:{address: '3300 University Blvd', city:'Winter Park', state: 'FL'}, gpa: [2.5,3.5,4.0]},
+    {name: 'msanders', address:{address: '3322 University Street', city:'Orlando', state: 'FL'}, gpa: [2.3,3.7,4.0]}];
 
 var index = [0];
 
@@ -43,7 +43,7 @@ for(var i = 0; i<students.length; i++){
  }
 
 //students.push({name: 'mmouse', address:{address: '1234 Sussex Ave', city:'Magic', state: 'MA'}, gpa: [2.0, 3.2, 4.0]});
-students.push({name: 'mmouse', address:{address: '1234 Sussex Ave', city:'Magic', state: 'MA'}, gpa: [2.0 + ', ' + 3.2 + ', ' + 4.0]});
+students.push({name: 'mmouse', address:{address: '1234 Sussex Ave', city:'Magic', state: 'MA'}, gpa: [2.0,3.2,4.0]});
 /*
 console.log('----------Three Users----------');
 
