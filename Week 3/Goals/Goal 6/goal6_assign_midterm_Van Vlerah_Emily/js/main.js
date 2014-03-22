@@ -10,6 +10,8 @@ var students = [{name: 'jbond', address:{address: '3300 University Blvd', city:'
     {name: 'msanders', address:{address: '3322 University Street', city:'Orlando', state: 'FL'}, gpa: [2.3, 3.7, 4.0]}];
 
 var index = [0];
+
+
 /*
 var gpaAvg = function(students){
     var count = 0;
@@ -34,7 +36,7 @@ console.log('-----------First Two Users-----------');
 for(var i = 0; i<students.length; i++){
 
     console.log('Name: ',students[i].name);
-    console.log('Address: ',students[i].address['address'],students[i].address['city'],students[i].address['state'] );
+    console.log('Address: ',students[i].address['address'] + ', ',students[i].address['city'] + ', ',students[i].address['state'] );
     console.log('GPA: ',students[i].gpa.toString());
     console.log('Date: ', date.toLocaleDateString());
 
@@ -45,7 +47,7 @@ students.push({name: 'mmouse', address:{address: '1234 Sussex Ave', city:'Magic'
 /*
 console.log('----------Three Users----------');
 
-function threeStudents(students){
+function threeStudents(){
 
  for(var i = 0; i<students.length; i++){
 
@@ -64,7 +66,10 @@ console.log(threeStudents());*/
 function display(){
 
 
-    if(index <students.length){
+    if(index < students.length){
+
+        index++;
+
         var innerName = document.getElementById("name");
         var innerAddress = document.getElementById("address");
         var innerGpa = document.getElementById("gpa");
@@ -76,7 +81,7 @@ function display(){
         //console.log(innerName);
 
         innerName.innerHTML = 'Name: ' + students[index].name;
-        innerAddress.innerHTML = 'Address: ' + students[index].address.address + " " + students[index].address.city + " " + students[index].address.state;
+        innerAddress.innerHTML = 'Address: ' + students[index].address.address + ", " + students[index].address.city + ", " + students[index].address.state;
         innerGpa.innerHTML = 'GPA: ' + students[index].gpa;
         innerDate.innerHTML = 'Date: ' + innerDate2;
         //innerAvg.innerHTML = 'Average GPA: ';
