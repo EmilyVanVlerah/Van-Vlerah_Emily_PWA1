@@ -21,7 +21,7 @@ var gpaAvg = function(students){
         total += students.gpa[i]["GPA"];
     }
 
-    return total/students[1];gpa.length;
+    return total/students[i].gpa.length;
 
 };
 console.log("Average GPA:", gpaAvg(students));
@@ -35,7 +35,7 @@ console.log('-----------First Two Users-----------');
 for(var i = 0; i<students.length; i++){
 
     console.log('Name: ',students[i].name);
-    console.log('Address: ',students[i].address['address'] + ', ',students[i].address['city'] + ', ',students[i].address['state'] );
+    console.log('Address: ',students[i].address['address'] + ', ',students[i].address['city'] + ', ',students[i].address['state']);
     console.log('GPA: ',students[i].gpa.toString());
     console.log('Date: ', date.toLocaleDateString());
 
