@@ -1,7 +1,7 @@
 /*
 
     Name: Emily Van Vlerah
-    Date: March 18th, 2014
+    Date: March 22th, 2014
 
 	* Mid Terms for PWA-1
 */
@@ -18,10 +18,10 @@ var gpaAvg = function(students){
 
     for (var i = 0, j = students.gpa.length; i < j; i++){
 
-        total = total + students.gpa[i]["GPA"];
+        total += students.gpa[i]["GPA"];
     }
 
-    return total/gpa.length;
+    return total/students[1];gpa.length;
 
 };
 console.log("Average GPA:", gpaAvg(students));
