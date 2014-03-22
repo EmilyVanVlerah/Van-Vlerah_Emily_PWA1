@@ -12,21 +12,20 @@ var students = [{name: 'jbond', address:{address: '3300 University Blvd', city:'
 var index = [0];
 
 
-/*
 var gpaAvg = function(students){
-    var count = 0;
+
     var total = 0;
 
     for (var i = 0, j = students.gpa.length; i < j; i++){
-        count++;
+
         total = total + students.gpa[i]["GPA"];
     }
 
-    return total/count;
+    return total/gpa.length;
 
 };
 console.log("Average GPA:", gpaAvg(students));
-*/
+
 
 
 var date = new Date();
