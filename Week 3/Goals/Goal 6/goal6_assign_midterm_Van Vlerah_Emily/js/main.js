@@ -7,6 +7,14 @@
 */
 (function(){ // START - SELF-EXECUTING FUNCTION
 
+    function gpaAvg(gpaArray){
+        var total = 0;
+        for(i=0;i<gpaArray.length;i++){
+            total += gpaArray[i];
+        }
+        total = total / gpaArray.length;
+        return Math.round(total * 100) / 100;//Extra Credit Round of Average GPA
+    }
 
 
     var date = new Date();
@@ -17,22 +25,22 @@
 
     var students =  [
         {
-            name: "James Bond",
+            name: "Mark Sanders",
             address : {
                 address : "3300 University Blvd",
                 city    : "Winter Park",
-                state   : "Florida"
+                state   : "FL"
             },
-            gpa : [2.5, 2.4, 3.3]
+            gpa : [2.1, 2.4, 3.0]
         },
         {
-            name: "Justin Goldman",
+            name: "Emily Van Vlerah",
             address : {
-                address : "4600 E Kentucky Ave",
-                city    : "Denver",
-                state   : "Colorado"
+                address : "125 Sussex Drive Apt 2",
+                city    : "Athens",
+                state   : "GA"
             },
-            gpa : [2.4, 3.1, 3.4]
+            gpa : [4.0, 3.6, 3.4]
         }];
 
 
@@ -68,7 +76,7 @@
 
     //CREATE DATA FOR NEW ARRAY
 
-    addData('super man', '123 Test Dr', 'Orlando', 'Florida', [3.2, 4.0, 2.2] );
+    addData('Buggs Bunny', '5566 Magic Stuff', 'Torgue', 'MA', [3.2, 1.0, 2.2]);
 
 
 
@@ -76,10 +84,10 @@
     console.log('------ ADDED Object ----------');
 
 
-    console.log("Students Name: ", students[2].name);
-    console.log("Students Address: ", students[2].address.address + "   " + students[2].address.city + ", "  + students[2].address.state);
-    console.log("Students GPA: ", students[2].gpa);
-    console.log("Students Date: ", date.toLocaleDateString());
+    console.log("Name: ", students[2].name);
+    console.log("Address: ", students[2].address.address + "   " + students[2].address.city + ", "  + students[2].address.state);
+    console.log("GPA: ", students[2].gpa);
+    console.log("Date: ", date.toLocaleDateString());
 
 
     //ONCLICK - EVENT
@@ -111,20 +119,22 @@
             var innerGpa = document.getElementById("gpa");
             var innerDate = document.getElementById('date');
             var innerDate2 = date.toLocaleDateString();
-            //var innerAvg = document.getElementById('gpaavg');
+            var innerAvg = document.getElementById('gpaavg');
 
-
+            var gpaAvgVal = gpaAvg(students[index].gpa);
             //console.log(innerName);
 
             innerName.innerHTML = 'Name: ' + students[index].name;
             innerAddress.innerHTML = 'Address: ' + students[index].address.address + ", " + students[index].address.city + ", " + students[index].address.state;
             innerGpa.innerHTML = 'GPA: ' + students[index].gpa;
             innerDate.innerHTML = 'Date: ' + innerDate2;
-            //innerAvg.innerHTML = 'Average GPA: ';
+            innerAvg.innerHTML = 'Average GPA: '+gpaAvgVal;
             index++;
 
 
         }else{
+
+            document.getElementsByClassName('buttonred')[0].innerHTML = 'DONE!!!';
 
             return false;
         }
@@ -133,8 +143,7 @@
 
 
 
-
-
+    display();
 
 
 
