@@ -93,8 +93,16 @@
             return blogHTML;
         };
 
+        this.toString = function(){
+
+            console.log("[" + (this.date.getMonth() + 1) + "/" + this.date.getDate() + "/" +
+                this.date.getFullYear() + "]" + this.body);
+        };
+
 
     };// close constructor
+
+        Blog.prototype.companyName = "Full Sail";
 
 
     // array of blog items
@@ -135,9 +143,17 @@
 
                 blogText += blog[i].toHTML(i % 2 === 0);
 
+                blog[i].toString();
+
                 i++;
 
             }
+
+            //var tmpName = blog[0].companyName = "Full Sail";
+            console.log(blog[0].companyName);
+            console.log(blog[1].companyName);
+            console.log(blog[2].companyName);
+            console.log(blog[3].companyName);
 
             document.getElementById("blog").innerHTML = blogText;
             e.preventDefault();
