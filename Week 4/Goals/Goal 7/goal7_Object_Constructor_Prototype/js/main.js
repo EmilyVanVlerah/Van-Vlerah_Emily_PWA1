@@ -1,6 +1,14 @@
 /*
      PWA1: Goal 7:  Course Material 7 (more.Objects - Constructors - Prototypes)
 
+
+ **NOTES:**
+ *Local variables inside a constructor do not work inside a prototype.
+ *Prototypes do not allow local variables that are inside constructors to work inside itself.
+ *For getElementById you can use querySelector. You have to use # like: querySelector(#id) if you are trying to get ID, otherwise no #.
+ * Any object created from a constructor will automatically inherit any prototype changes, even after being created.
+ **END**
+
  */
 
 // application scope (self-executing function)
@@ -28,8 +36,7 @@
     - the "constructor" is responsible for creating object instances
 */
 
-    var button = document.getElementById('blog_btn');//querySelector(#id) if you are trying to get ID, otherwise no #.
-
+    var button = document.getElementById('blog_btn');
 
 	// get the location of the blog button
 
@@ -79,7 +86,7 @@
         //console.log("'str' is equal to: ", str);
         //console.log("'this.body' is equal to: ", this.body);
 
-        this.toHTML = function(highligh){
+  /*      this.toHTML = function(highligh){
 
             var blogHTML = "";
 
@@ -98,12 +105,37 @@
             console.log("[" + (this.date.getMonth() + 1) + "/" + this.date.getDate() + "/" +
                 this.date.getFullYear() + "]" + this.body);
         };
-
+*/
 
     };// close constructor
 
-        Blog.prototype.companyName = "Full Sail";
+    //PROTOTYPE STARTS
 
+    Blog.prototype.companyName = "Full Sail";
+
+    Blog.prototype.toHTML = function(highligh){
+
+        var blogHTML = "";
+
+        blogHTML += highligh ? "<p style='background-color: #eeeeee'>" : "<p>";
+
+        blogHTML += "<strong>" + (this.date.getMonth() + 1) + "/" +
+            this.date.getDate() + "/" +
+            this.date.getFullYear() + "</strong><br />" +
+            this.body + "</p>";
+
+        return blogHTML;
+
+    };
+
+    Blog.prototype.toString = function(){
+
+        console.log("[" + (this.date.getMonth() + 1) + "/" + this.date.getDate() + "/" +
+            this.date.getFullYear() + "]" + this.body);
+
+    };
+
+    //PROTOTYPE ENDS
 
     // array of blog items
     // each blog item will use the Blog constructor as its template to create each
@@ -128,19 +160,19 @@
 
             while(i < blog.length){
 
-//                if(i % 2 === 0){
-//                    blogText += "<p style='background-color: #eeeeee'>";//gray background for ever other blog
-  //              }else{
-    //                blogText += "<p>";
-      //          }
+/*                if(i % 2 === 0){
+                    blogText += "<p style='background-color: #eeeeee'>";//gray background for ever other blog
+                }else{
+                    blogText += "<p>";
+                }
 
-        //        blogText += "<strong>" + (blog[i].date.getMonth() + 1) + "/" +
-          //          blog[i].date.getDate() + "/" +
-            //        blog[i].date.getFullYear() + "</strong><br />" +
-              //      blog[i].body + "</p>";
+                blogText += "<strong>" + (blog[i].date.getMonth() + 1) + "/" +
+                    blog[i].date.getDate() + "/" +
+                    blog[i].date.getFullYear() + "</strong><br />" +
+                    blog[i].body + "</p>";
 
-                //blogText += "<strong>" + blog[i].date + "</strong><br />" + blog[i].body + "</p>";
-
+                blogText += "<strong>" + blog[i].date + "</strong><br />" + blog[i].body + "</p>";
+*/
                 blogText += blog[i].toHTML(i % 2 === 0);
 
                 blog[i].toString();
@@ -165,3 +197,4 @@
 
 
 })();  // end wrapper
+
