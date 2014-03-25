@@ -16,7 +16,7 @@
             //using Math.random() method
             var person = new Person(names[someName],someRow);
 
-        };
+        }
 
     var populateHTML = function(){
 

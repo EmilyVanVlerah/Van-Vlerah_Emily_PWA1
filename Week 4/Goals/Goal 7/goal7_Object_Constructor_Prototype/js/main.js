@@ -6,7 +6,8 @@
  *Local variables inside a constructor do not work inside a prototype.
  *Prototypes do not allow local variables that are inside constructors to work inside itself.
  *For getElementById you can use querySelector. You have to use # like: querySelector(#id) if you are trying to get ID, otherwise no #.
- * Any object created from a constructor will automatically inherit any prototype changes, even after being created.
+ *Any object created from a constructor will automatically inherit any prototype changes, even after being created.
+ *Object's link variables and functions together inside of a storage container.
  **END**
 
  */
@@ -80,15 +81,15 @@
     //THIS IS OUR CONSTRUCTOR
     var Blog = function(str, date){
         //console.log(this);
-        this.body = str;
-        this.date = date;
+        this.body = str;//Property(variable inside a constructor)
+        this.date = date;//Property(variable inside a constructor)
 
         //console.log("'str' is equal to: ", str);
         //console.log("'this.body' is equal to: ", this.body);
 
-  /*      this.toHTML = function(highligh){
+  /*      this.toHTML = function(highligh){//Method(Function inside a constructor)
 
-            var blogHTML = "";
+            var blogHTML = "";//Property(variable inside a constructor)
 
             blogHTML += highligh ? "<p style='background-color: #eeeeee'>" : "<p>";
 
@@ -100,7 +101,7 @@
             return blogHTML;
         };
 
-        this.toString = function(){
+        this.toString = function(){//Method(Function inside a constructor)
 
             console.log("[" + (this.date.getMonth() + 1) + "/" + this.date.getDate() + "/" +
                 this.date.getFullYear() + "]" + this.body);

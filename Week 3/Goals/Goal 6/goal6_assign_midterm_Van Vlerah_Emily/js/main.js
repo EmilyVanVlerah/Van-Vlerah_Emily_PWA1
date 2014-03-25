@@ -93,7 +93,7 @@
     //ONCLICK - EVENT
 
 
-    console.log(students);
+    //console.log(students);
 
 
     document.getElementsByClassName('buttonred')[0].onclick = function(e){

@@ -8,15 +8,15 @@
 
 (function(){
 
-    window.Person = Person;
+    window.Person = Person(){
 
-    var Person.jobs = ["coder","cop","student","Pharmacy Tech."];//using Math.random() method
+        var Person.jobs = ["coder","cop","student","Pharmacy Tech."];//using Math.random() method
 
-    var Person.actions = ["sleeping","eating","working"];//using Math.random() method
+        var Person.actions = ["sleeping","eating","working"];//using Math.random() method
 
-    function runUpdate(){
+        function runUpdate(){
 
-        people.forEach(function(element){
+            people.forEach(function(element){
 
 
             element.update(setInterval(runUpdate, 1000 / 30););
@@ -24,7 +24,7 @@
 
         });
 
-
+    };
 
 })();  // end wrapper
 
