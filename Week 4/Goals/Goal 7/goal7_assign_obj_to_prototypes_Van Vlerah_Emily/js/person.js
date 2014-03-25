@@ -8,7 +8,7 @@
 
 (function(){
 
-    window.Person = Person(){
+    window.Person = Person(jobs, actions){
 
         var Person.jobs = ["coder","cop","student","Pharmacy Tech."];//using Math.random() method
 

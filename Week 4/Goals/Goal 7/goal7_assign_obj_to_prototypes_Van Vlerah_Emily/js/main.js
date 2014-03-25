@@ -12,7 +12,7 @@
 
         for(){//makes calls to constructor file which is person.js
 
-            //var person = new Person(names[someName <- passing name ],someRow <- passing row number);
+            //var person = new Person(names[someName <- passing name(random math) ],someRow <- passing row number(random math));
             //using Math.random() method
             var person = new Person(names[someName],someRow);
 
