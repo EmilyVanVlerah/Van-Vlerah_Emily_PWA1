@@ -7,24 +7,25 @@
  */
 
 
+//person.js
 window.Person = Person;
 
-    Person.jobs = ["teacher","farmer","student","pilot"];
-    Person.actions = ["sleeping","eating","working"];
+//CONSTRUCTOR
+var Person = function(name, row){
 
-
-var Person = function(names,row){
-
-
-    this.names = names;
-    this.actions = Math.floor(Math.random()*Person.actions.length);
-    this.jobs = jobs;
+    //FOUR PROPERTIES
+    this.name = name;
     this.row = row;
+    var jobs = ["Coder","Police","Student","Doctor"];
+    var actions = ["sleeping","eating","working"];
+    var x = Math.floor(Math.random()*jobs.length);
+    var y = Math.floor(Math.random()*actions.length);
+    this.job = jobs[x];
+    this.action = actions[y];
 
-
-
+    this.update = function(){
+        var y = Math.floor(Math.random()*actions.length);
+        this.action = actions[y];
+    }
 
 };
-
-
-console.log(this.action);
