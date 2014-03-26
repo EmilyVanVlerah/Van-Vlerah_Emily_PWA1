@@ -1,30 +1,30 @@
 /**
  * Created by the JavaScript Development Team
  * Name: Emily Van Vlerah
- * Date: March 24th, 2014
- * Class: PWA
+ * Date: March 25th, 2014
+ * Class: PWA1
  * Goal: Goal7
  */
 
-(function(){
 
-    window.Person = Person(jobs, actions){
+window.Person = Person;
 
-        var Person.jobs = ["coder","cop","student","Pharmacy Tech."];//using Math.random() method
-
-        var Person.actions = ["sleeping","eating","working"];//using Math.random() method
-
-        function runUpdate(){
-
-            people.forEach(function(element){
+    Person.jobs = ["teacher","farmer","student","pilot"];
+    Person.actions = ["sleeping","eating","working"];
 
 
-            element.update(setInterval(runUpdate, 1000 / 30););
+var Person = function(names,row){
 
 
-        });
+    this.names = names;
+    this.actions = Math.floor(Math.random()*Person.actions.length);
+    this.jobs = jobs;
+    this.row = row;
 
-    };
 
-})();  // end wrapper
 
+
+};
+
+
+console.log(this.action);
