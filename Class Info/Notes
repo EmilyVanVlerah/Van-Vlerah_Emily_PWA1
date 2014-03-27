@@ -1,0 +1,30 @@
+Notes:
+
+class is with a dot
+id is with a number sign
+
+prototype is used by adding unique things to objects inside a constructor
+
+in the main.js you create the variables and the descriptions//add into the HTML second
+
+in the blueprint.js you call the variable and descriptions to make the code work.//add into the HTML first
+
+<script type="text/javascript" src = "js/main.js"></script>
+
+ *Local variables inside a constructor do not work inside a prototype.
+ *Prototypes do not allow local variables that are inside constructors to work inside itself.
+ *For getElementById you can use querySelector. You have to use # like: querySelector(#id) if you are trying to get ID, otherwise no #.
+ *Any object created from a constructor will automatically inherit any prototype changes, even after being created.
+ *Object's link variables and functions together inside of a storage container.
+
+
+Class Program Info:
+
+
+My GIT URL:
+
+https://github.com/EmilyVanVlerah/Van-Vlerah_Emily_PWA1.git
+
+Google Doc:
+
+https://docs.google.com/document/d/15oNR2bypCeBQ1X59SSPs7kkgUesm3JmzDhzNcA6OmQU/edit
